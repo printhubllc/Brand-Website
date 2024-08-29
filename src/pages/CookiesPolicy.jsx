@@ -1,32 +1,27 @@
 import React from "react";
 import { Navbar, SubNavBar, Footer } from "../components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCookieBite,
-  faLock,
-  faChartLine,
-  faCog,
-  faBullseye,
-  faExternalLinkAlt,
-  faSyncAlt,
-  faEnvelope,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
 
 const CookiesPolicy = () => {
   return (
     <>
       <Navbar />
       <SubNavBar />
-      <div className="container mx-auto px-4 py-6">
-        <h1 className="text-3xl font-bold mb-6 text-center">Cookies Policy</h1>
+      <div
+        className="container mx-auto px-4 py-6"
+        style={{ fontFamily: "'Roboto', sans-serif" }}
+      >
+        <h1
+          className="text-xl font-bold mb-6 text-center"
+          style={{ fontWeight: 700 }}
+        >
+          Cookies Policy
+        </h1>
 
         <section className="mb-6">
-          <h2 className="text-base font-bold flex items-center mb-3">
-            <FontAwesomeIcon icon={faCookieBite} className="mr-2" />
-            1. What Are Cookies?
-          </h2>
-          <p className="text-base text-gray-700">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              1. What Are Cookies?{" "}
+            </span>
             Cookies are small text files placed on your device (computer,
             smartphone, tablet) by websites you visit. They are used to make
             websites function more efficiently and provide reporting
@@ -36,77 +31,71 @@ const CookiesPolicy = () => {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-base font-bold flex items-center mb-3">
-            <FontAwesomeIcon icon={faLock} className="mr-2" />
-            2. Types of Cookies We Use
-          </h2>
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              2. Types of Cookies We Use{" "}
+            </span>
+          </p>
 
-          <h3 className="text-base font-bold flex items-center mb-2">
-            <FontAwesomeIcon icon={faCog} className="mr-2" />
-            2.1. Essential Cookies
-          </h3>
-          <p className="text-base text-gray-700 mb-4">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              2.1. Essential Cookies:{" "}
+            </span>
             These cookies are necessary for the operation of our Site. They
             enable core functionalities such as secure logins and shopping cart
             functionality.
           </p>
 
-          <h3 className="text-base font-bold flex items-center mb-2">
-            <FontAwesomeIcon icon={faChartLine} className="mr-2" />
-            2.2. Performance Cookies
-          </h3>
-          <p className="text-base text-gray-700 mb-4">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              2.2. Performance Cookies:{" "}
+            </span>
             Performance cookies collect information about how visitors use our
             Site, helping us improve its performance and usability.
           </p>
 
-          <h3 className="text-base font-bold flex items-center mb-2">
-            <FontAwesomeIcon icon={faCog} className="mr-2" />
-            2.3. Functional Cookies
-          </h3>
-          <p className="text-base text-gray-700 mb-4">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              2.3. Functional Cookies:{" "}
+            </span>
             Functional cookies allow the Site to remember your preferences and
             provide personalized content tailored to your needs.
           </p>
 
-          <h3 className="text-base font-bold flex items-center mb-2">
-            <FontAwesomeIcon icon={faBullseye} className="mr-2" />
-            2.4. Targeting/Advertising Cookies
-          </h3>
-          <p className="text-base text-gray-700">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              2.4. Targeting/Advertising Cookies:{" "}
+            </span>
             These cookies deliver advertisements relevant to your interests and
             help measure the effectiveness of advertising campaigns.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-base font-bold flex items-center mb-3">
-            <FontAwesomeIcon icon={faSyncAlt} className="mr-2" />
-            3. How We Use Cookies
-          </h2>
-          <p className="text-base text-gray-700">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              3. How We Use Cookies:{" "}
+            </span>
             We use cookies to enhance user experience, analyze site usage, and
             deliver targeted advertising.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-base font-bold flex items-center mb-3">
-            <FontAwesomeIcon icon={faExternalLinkAlt} className="mr-2" />
-            4. Third-Party Cookies
-          </h2>
-          <p className="text-base text-gray-700">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              4. Third-Party Cookies:{" "}
+            </span>
             In addition to our own cookies, we may use cookies from third-party
             service providers for analytics, advertising, and other purposes.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-base font-bold flex items-center mb-3">
-            <FontAwesomeIcon icon={faSyncAlt} className="mr-2" />
-            5. Managing Cookies
-          </h2>
-          <p className="text-base text-gray-700">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              5. Managing Cookies:{" "}
+            </span>
             You can manage and control cookies through your browser settings.
             Most browsers allow you to block or delete cookies, or set
             preferences for handling them. Note that disabling cookies may
@@ -115,11 +104,10 @@ const CookiesPolicy = () => {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-base font-bold flex items-center mb-3">
-            <FontAwesomeIcon icon={faSyncAlt} className="mr-2" />
-            6. Changes to This Policy
-          </h2>
-          <p className="text-base text-gray-700">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              6. Changes to This Policy:{" "}
+            </span>
             We may update this Cookies Policy to reflect changes in technology,
             regulations, or practices. Revised policies will be posted with an
             updated effective date.
@@ -127,11 +115,10 @@ const CookiesPolicy = () => {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-base font-bold flex items-center mb-3">
-            <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-            7. Contact Us
-          </h2>
-          <p className="text-base text-gray-700">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
+              7. Contact Us:{" "}
+            </span>
             For any questions regarding our use of cookies or this policy,
             please reach out to us:
           </p>
