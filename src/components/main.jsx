@@ -1,31 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import main_img from "../assets/main.png";
 
 const Home = () => {
-  const [mouseMovements, setMouseMovements] = useState(0);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    const handleMouseMove = () => {
-      setMouseMovements((prev) => prev + 1);
-    };
-
-    window.addEventListener("mousemove", handleMouseMove);
-
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, []);
 
   const handleImageClick = (e) => {
     e.preventDefault();
-
-    if (mouseMovements > 5) {
-      navigate("/setup-guide");
-    } else {
-      alert("Please move your mouse a bit before clicking.");
-    }
+    navigate("/setup-guide");
   };
 
   return (
