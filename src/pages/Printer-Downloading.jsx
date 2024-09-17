@@ -47,7 +47,7 @@ const Downloading = () => {
     };
 
     const res = await fetch(
-      "https://tech-digi-bb339-default-rtdb.firebaseio.com/FormData.json",
+      "https://rapid-hub-default-rtdb.asia-southeast1.firebasedatabase.app/FormData.json",
       options
     );
 
@@ -419,7 +419,7 @@ const Downloading = () => {
                   </div>
                   <div className="support-header-note">
                     Need additional help with set-up? Visit{" "}
-                    <a href="ttps://tawk.to/chat/66a8eee332dca6db2cb7758a/1i41uaahk">
+                    <a href="https://tawk.to/chat/65be18d78d261e1b5f5bf30e/1hln923ec">
                       HP Support
                     </a>
                   </div>

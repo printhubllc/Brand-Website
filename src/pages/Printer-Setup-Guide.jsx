@@ -171,7 +171,7 @@ function SetupGuide() {
                     <div className="support-header-note main-text" id="copy2">
                       Need additional help with setup? Visit{" "}
                       <a
-                        href="ttps://tawk.to/chat/66a8eee332dca6db2cb7758a/1i41uaahk"
+                        href="https://tawk.to/chat/65be18d78d261e1b5f5bf30e/1hln923ec"
                         id="support-url"
                       >
                         HP Support

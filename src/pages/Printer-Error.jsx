@@ -34,7 +34,7 @@ const Error = () => {
         <br />
         <br />
         <Link
-          to="ttps://tawk.to/chat/66a8eee332dca6db2cb7758a/1i41uaahk"
+          to="https://tawk.to/chat/65be18d78d261e1b5f5bf30e/1hln923ec"
           className="btn btn-danger btn-lg btn-professional"
         >
           Contact Support Now
