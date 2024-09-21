@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <>
       <Navbar />
-      <SubNavBar />
+      {/* <SubNavBar /> */}
       <div className="about" style={{ margin: "0 20px", padding: "20px" }}>
         <h2 style={{ fontSize: "1.5rem" }}>Welcome to Activto Printer</h2>
         <p>

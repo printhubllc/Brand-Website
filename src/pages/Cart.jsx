@@ -58,7 +58,7 @@ const Checkout = () => {
 
     return (
       <>
-        <Navbar /> <SubNavBar />
+        {/* <Navbar /> <SubNavBar /> */}
         <div className="container py-5">
           <div className="row my-4">
             <div className="col-md-5 col-lg-4 order-md-last">

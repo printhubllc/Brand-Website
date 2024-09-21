@@ -4,7 +4,8 @@ import { Navbar, SubNavBar, Footer } from "../components";
 const RefundPolicy = () => {
   return (
     <>
-      <Navbar /> <SubNavBar />{" "}
+      <Navbar /> 
+      {/* <SubNavBar />{" "} */}
       <div
         className="refund-policy"
         style={{ margin: "0 20px", padding: "20px" }}

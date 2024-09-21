@@ -46,6 +46,7 @@ const Checkout = () => {
 
     return (
       <>
+      
         <div className="container py-5">
           <div className="row my-4">
             <div className="col-md-5 col-lg-4 order-md-last">
@@ -306,8 +307,9 @@ const Checkout = () => {
 
   return (
     <>
-     
+    
       <div className="container my-3 py-3">
+      <Navbar/>
         <h1 className="text-center">Checkout</h1>
         <hr />
         {state.length ? <ShowCheckout /> : <EmptyCart />}

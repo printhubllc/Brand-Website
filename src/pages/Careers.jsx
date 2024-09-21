@@ -46,7 +46,7 @@ const Careers = () => {
   return (
     <>
       <Navbar />
-      <SubNavBar />{" "}
+      {/* <SubNavBar />{" "} */}
       <Container className="my-5">
         <Row className="mb-4">
           <Col className="text-center">

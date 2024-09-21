@@ -5,7 +5,8 @@ import { Navbar,Footer,SubNavBar } from "../components";
 const PageNotFound = () => {
   return (
     <>
-     <Navbar /> <SubNavBar />
+     <Navbar /> 
+     {/* <SubNavBar /> */}
       <div className="container my-3 py-3">
         <div className="container">
           <div className="row">

@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <>
       <Navbar />
-      <SubNavBar />
+      {/* <SubNavBar /> */}
       <div className="contact-us" style={{ margin: "0 20px", padding: "20px" }}>
         <h2 className="text-xl font-semibold">
           Get in Touch with Activto Printer

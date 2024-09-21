@@ -4,7 +4,8 @@ import { Navbar, SubNavBar, Footer } from "../components";
 const ShippingPolicy = () => {
   return (
     <>
-      <Navbar /> <SubNavBar />
+      <Navbar /> 
+      {/* <SubNavBar /> */}
       <div
         className="shipping-policy"
         style={{ margin: "0 20px", padding: "20px" }}

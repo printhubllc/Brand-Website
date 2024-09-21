@@ -252,7 +252,8 @@ const Product = () => {
 
   return (
     <>
-     <Navbar /> <SubNavBar />
+     <Navbar /> 
+     {/* <SubNavBar /> */}
       <div className="container">
         <div className="row">
           {loading ? <Loading /> : product && <ShowProduct />}

@@ -4,7 +4,8 @@ import { Navbar, SubNavBar, Footer } from "../components";
 const TermsAndConditions = () => {
   return (
     <>
-      <Navbar /> <SubNavBar />
+      <Navbar /> 
+      {/* <SubNavBar /> */}
       <div
         className="terms-and-conditions"
         style={{ margin: "0 20px", padding: "20px" }}
