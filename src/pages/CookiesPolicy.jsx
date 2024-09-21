@@ -123,20 +123,20 @@ const CookiesPolicy = () => {
             please reach out to us:
           </p>
           <address className="mt-4 text-base text-gray-700">
-            <strong>Rapid Hub</strong>
-            <br />
+            <strong>Activto Printer</strong>
+            {/* <br />
             5678 Innovation Lane, Suite 300
             <br />
             San Jose, CA 95134
             <br />
             United States
-            <br />
+            <br /> */}
             Email:{" "}
             <a
-              href="mailto:info@rapidhub.com"
+              href="mailto:info@activtoprinter.com"
               className="text-blue-500 hover:underline"
             >
-              info@rapidhub.com
+              info@activtoprinter.com
             </a>
           </address>
         </section>

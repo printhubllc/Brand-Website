@@ -9,20 +9,24 @@ const PrivacyPolicy = () => {
         className="privacy-policy"
         style={{ margin: "0 20px", padding: "20px" }}
       >
-        <h1 style={{ fontSize: "1rem", fontWeight: "bold" }}>Your Privacy Matters to Us</h1>
+        <h1 style={{ fontSize: "1rem", fontWeight: "bold" }}>
+          Your Privacy Matters to Us
+        </h1>
 
         <section style={{ marginTop: "20px" }}>
           <p>
-            At Rapid Hub, we prioritize the protection of your personal data.
-            This Privacy Policy explains how we collect, use, and safeguard your
-            information when you visit our website, make purchases, or use our
-            services. By interacting with us, you consent to the practices
-            described here.
+            At Activto Printer, we prioritize the protection of your personal
+            data. This Privacy Policy explains how we collect, use, and
+            safeguard your information when you visit our website, make
+            purchases, or use our services. By interacting with us, you consent
+            to the practices described here.
           </p>
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>1. Information We Collect</h2>
+          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>
+            1. Information We Collect
+          </h2>
           <p>
             We collect various types of information to improve your experience
             with us:
@@ -51,7 +55,9 @@ const PrivacyPolicy = () => {
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>2. How We Use Your Information</h2>
+          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>
+            2. How We Use Your Information
+          </h2>
           <p>We use your information for various purposes:</p>
           <ul>
             <li>
@@ -82,7 +88,9 @@ const PrivacyPolicy = () => {
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>3. Sharing Your Information</h2>
+          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>
+            3. Sharing Your Information
+          </h2>
           <p>
             We may share your information under the following circumstances:
           </p>
@@ -104,7 +112,9 @@ const PrivacyPolicy = () => {
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>4. Your Rights</h2>
+          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>
+            4. Your Rights
+          </h2>
           <p>You have several rights regarding your data:</p>
           <ul>
             <li>
@@ -123,7 +133,9 @@ const PrivacyPolicy = () => {
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>5. Data Protection</h2>
+          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>
+            5. Data Protection
+          </h2>
           <p>
             We employ various security measures to protect your data. However,
             no method of transmission over the internet is entirely secure.
@@ -131,7 +143,9 @@ const PrivacyPolicy = () => {
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>6. Cookies and Tracking</h2>
+          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>
+            6. Cookies and Tracking
+          </h2>
           <p>
             We use cookies to enhance your browsing experience and analyze site
             usage. You can manage your cookie preferences through your browser
@@ -140,7 +154,9 @@ const PrivacyPolicy = () => {
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>7. Policy Updates</h2>
+          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>
+            7. Policy Updates
+          </h2>
           <p>
             This Privacy Policy may be updated periodically. Any changes will be
             posted on our website, and continued use of the site signifies your
@@ -149,21 +165,24 @@ const PrivacyPolicy = () => {
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>8. Contact Us</h2>
+          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>
+            8. Contact Us
+          </h2>
           <p>
             If you have any questions about this policy or your personal data,
             please contact us at:
           </p>
           <address>
-            <strong>Rapid Hub</strong>
+            <strong>Activto Printer</strong>
             <br />
-            5678 Innovation Lane, Suite 300
+            {/* 5678 Innovation Lane, Suite 300
             <br />
             San Jose, CA 95134
             <br />
             United States
-            <br />
-            Email: <a href="mailto:info@rapidhub.com">info@rapidhub.com</a>
+            <br /> */}
+            Email:{" "}
+            <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>
           </address>
         </section>
       </div>

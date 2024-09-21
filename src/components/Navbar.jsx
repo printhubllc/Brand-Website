@@ -12,14 +12,14 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
       <div className="container">
-        <NavLink className="navbar-brand d-flex align-items-center" to="/">
+        {/* <NavLink className="navbar-brand d-flex align-items-center" to="/">
           <img
             src={blogo}
             alt="Logo"
             width="40"
             className="me-2"
           />
-        </NavLink>
+        </NavLink> */}
 
         <button
           className="navbar-toggler"

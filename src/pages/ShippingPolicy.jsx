@@ -9,9 +9,9 @@ const ShippingPolicy = () => {
         className="shipping-policy"
         style={{ margin: "0 20px", padding: "20px" }}
       >
-        <h1>Welcome to Rapid Hub's Shipping Information</h1>
+        <h1>Welcome to Activto Printer's Shipping Information</h1>
         <p>
-          At Rapid Hub, we aim to make your shopping experience smooth and
+          At Activto Printer, we aim to make your shopping experience smooth and
           straightforward. This guide explains our shipping practices for orders
           placed through rapidhub.online. By making a purchase, you agree to the
           following shipping terms.
@@ -98,15 +98,16 @@ const ShippingPolicy = () => {
             to contact us:
           </p>
           <address>
-            <strong>Rapid Hub</strong>
+            <strong>Activto Printer</strong>
             <br />
-            5678 Innovation Lane, Suite 300
+            {/* 5678 Innovation Lane, Suite 300
             <br />
             San Jose, CA 95134
             <br />
             United States
-            <br />
-            Email: <a href="mailto:info@rapidhub.com">info@rapidhub.com</a>
+            <br /> */}
+            Email:{" "}
+            <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>
           </address>
         </section>
       </div>

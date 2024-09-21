@@ -12,9 +12,9 @@ function Home() {
   return (
     <>
       <Navbar />
-      <SubNavBar />
-      <Main />
-      <BelowMain />
+      {/* <SubNavBar /> */}
+      {/* <Main /> */}
+      {/* <BelowMain /> */}
       <Product />
       <Guides />
       <Footer />

@@ -9,7 +9,7 @@ const TermsAndConditions = () => {
         className="terms-and-conditions"
         style={{ margin: "0 20px", padding: "20px" }}
       >
-        <h1>Welcome to Rapid Hub!</h1>
+        <h1>Welcome to Activto Printer!</h1>
         <p>
           By using our website, rapidhub.online, and purchasing our products,
           you agree to the following terms and conditions. Please review them
@@ -83,7 +83,7 @@ const TermsAndConditions = () => {
           <p>
             <strong>Intellectual Property:</strong>
             <br />
-            All content on our Site is owned or licensed by Rapid Hub and
+            All content on our Site is owned or licensed by Activto Printer and
             protected by intellectual property laws. You are granted a limited,
             non-exclusive, non-transferable license for personal use only.
             Commercial use requires prior written consent.
@@ -114,8 +114,8 @@ const TermsAndConditions = () => {
           <p>
             <strong>Indemnification:</strong>
             <br />
-            You agree to indemnify Rapid Hub and its affiliates against any
-            claims or damages arising from your use of the Site or breach of
+            You agree to indemnify Activto Printer and its affiliates against
+            any claims or damages arising from your use of the Site or breach of
             these Terms.
           </p>
         </section>
@@ -137,15 +137,16 @@ const TermsAndConditions = () => {
             us at:
           </p>
           <address>
-            <strong>Rapid Hub</strong>
+            <strong>Activto Printer</strong>
             <br />
-            5678 Innovation Lane, Suite 300
+            {/* 5678 Innovation Lane, Suite 300
             <br />
             San Jose, CA 95134
             <br />
             United States
-            <br />
-            Email: <a href="mailto:info@rapidhub.com">info@rapidhub.com</a>
+            <br /> */}
+            Email:{" "}
+            <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>
           </address>
         </section>
       </div>

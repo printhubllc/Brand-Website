@@ -24,7 +24,7 @@ const GDPRCompliance = () => {
             1. Introduction
           </h2>
           <p className="text-base text-gray-700">
-            At Rapid Hub, we are committed to ensuring the privacy and
+            At Activto Printer, we are committed to ensuring the privacy and
             protection of your personal data. This GDPR Compliance page explains
             how we collect, use, and protect your data in accordance with the
             General Data Protection Regulation (GDPR).
@@ -77,21 +77,21 @@ const GDPRCompliance = () => {
             or your personal data, please contact us:
           </p>
           <address className="mt-4 text-base text-gray-700">
-            <strong>Rapid Hub</strong>
+            <strong>Activto Printer</strong>
             <br />
             <br />
-            5678 Innovation Lane, Suite 300
+            {/* 5678 Innovation Lane, Suite 300
             <br />
             San Jose, CA 95134
             <br />
             United States
-            <br />
+            <br /> */}
             Email:{" "}
             <a
-              href="mailto:info@rapidhub.com"
+              href="mailto:info@activtoprinter.com"
               className="text-blue-500 hover:underline"
             >
-              info@rapidhub.com
+              info@activtoprinter.com
             </a>
           </address>
         </section>

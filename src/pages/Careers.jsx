@@ -50,11 +50,11 @@ const Careers = () => {
       <Container className="my-5">
         <Row className="mb-4">
           <Col className="text-center">
-            <h1 className="display-4 mb-4">Careers at Rapid Hub</h1>
+            <h1 className="display-4 mb-4">Careers at Activto Printer</h1>
             <p className="lead mb-5">
-              At Rapid Hub, we’re always looking for talented and passionate
-              individuals to join our team. Explore our current job openings and
-              apply today to become part of our dynamic company.
+              At Activto Printer, we’re always looking for talented and
+              passionate individuals to join our team. Explore our current job
+              openings and apply today to become part of our dynamic company.
             </p>
           </Col>
         </Row>

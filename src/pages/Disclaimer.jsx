@@ -110,15 +110,18 @@ const Disclaimer = () => {
                 contact us:
               </p>
               <address>
-                <strong>Rapid Hub</strong>
+                <strong>Activto Printer</strong>
+                {/* <br />
+                5678 Innovation Lane, Suite 300
                 <br />
-            5678 Innovation Lane, Suite 300
-            <br />
-            San Jose, CA 95134
-            <br />
-            United States
-            <br />
-                Email: <a href="mailto:info@rapidhub.com">info@rapidhub.com</a>
+                San Jose, CA 95134
+                <br />
+                United States
+                <br /> */}
+                Email:{" "}
+                <a href="mailto:info@activtoprinter.com">
+                  info@activtoprinter.com
+                </a>
               </address>
             </section>
           </Col>

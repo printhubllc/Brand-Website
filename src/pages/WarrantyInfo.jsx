@@ -13,8 +13,8 @@ const WarrantyInformation = () => {
           <Col className="text-center">
             <h1 className="display-4 mb-4">Warranty Information</h1>
             <p className="lead mb-5">
-              At Rapid Hub, we stand behind the quality of our products. Our
-              warranty covers defects in materials and workmanship for a
+              At Activto Printer, we stand behind the quality of our products.
+              Our warranty covers defects in materials and workmanship for a
               specified period. Please review the details below to understand
               our warranty policy.
             </p>

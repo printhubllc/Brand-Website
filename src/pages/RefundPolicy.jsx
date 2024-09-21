@@ -9,8 +9,7 @@ const RefundPolicy = () => {
         className="refund-policy"
         style={{ margin: "0 20px", padding: "20px" }}
       >
-        <h1>Rapid Hub's Refund Guidelines</h1>
-
+        <h1>Activto Printer's Refund Guidelines</h1>
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Eligibility for Refunds:</strong>
@@ -33,7 +32,6 @@ const RefundPolicy = () => {
             </li>
           </ul>
         </section>
-
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Items Not Eligible for Refunds:</strong>
@@ -46,7 +44,6 @@ const RefundPolicy = () => {
             <li>Digital Goods (e.g., software, licenses)</li>
           </ul>
         </section>
-
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Steps to Request a Refund:</strong>
@@ -56,8 +53,10 @@ const RefundPolicy = () => {
           <ol>
             <li>
               <strong>Contact Us:</strong> Email{" "}
-              <a href="mailto:info@rapidhub.com">info@rapidhub.com</a> with your
-              order number and reason for the return.
+              <a href="mailto:info@activtoprinter.com">
+                info@activtoprinter.com
+              </a>{" "}
+              with your order number and reason for the return.
             </li>
             <li>
               <strong>Return Authorization:</strong> We will issue a Return
@@ -71,7 +70,6 @@ const RefundPolicy = () => {
             </li>
           </ol>
         </section>
-
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Processing Refunds:</strong>
@@ -81,7 +79,6 @@ const RefundPolicy = () => {
             for your bank to complete the refund process.
           </p>
         </section>
-
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Exchanges:</strong>
@@ -91,17 +88,17 @@ const RefundPolicy = () => {
             item.
           </p>
         </section>
-
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Defective or Incorrect Items:</strong>
             <br />
             If you receive a defective or incorrect item, contact us immediately
-            at <a href="mailto:info@rapidhub.com">info@rapidhub.com</a>. We will
-            arrange for a replacement or issue a refund at no extra charge.
+            at{" "}
+            <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>
+            . We will arrange for a replacement or issue a refund at no extra
+            charge.
           </p>
         </section>
-
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Contact Information:</strong>
@@ -110,21 +107,19 @@ const RefundPolicy = () => {
             reach out to us:
           </p>
           <address>
-            <strong>Rapid Hub</strong>
-            <br />
+            <strong>Activto Printer</strong>
+            {/* <br />
             5678 Innovation Lane, Suite 300
             <br />
             San Jose, CA 95134
             <br />
             United States
-            <br />
-            Email: <a href="mailto:info@rapidhub.com">info@rapidhub.com</a>
+            <br /> */}
+            Email:{" "}
+            <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>
           </address>
         </section>
-        
-
-
-Email: info@rapidhub.com
+        Email: info@activtoprinter.com
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Policy Updates:</strong>

@@ -7,7 +7,9 @@ const ContactUs = () => {
       <Navbar />
       <SubNavBar />
       <div className="contact-us" style={{ margin: "0 20px", padding: "20px" }}>
-        <h2 className="text-xl font-semibold">Get in Touch with Rapid Hub</h2>
+        <h2 className="text-xl font-semibold">
+          Get in Touch with Activto Printer
+        </h2>
         <p className="text-sm text-gray-700">
           We are here to assist you with any inquiries, concerns, or feedback
           regarding our products and services. Our dedicated team is ready to
@@ -15,11 +17,11 @@ const ContactUs = () => {
         </p>
 
         <section style={{ marginTop: "20px" }}>
-          <h3 className="text-lg font-medium">Our Location</h3>
+          {/* <h3 className="text-lg font-medium">Our Location</h3>
           <p className="text-sm text-gray-600">
             <strong>Address:</strong>
             <br />
-            Rapid Hub
+            Activto Printer
             <br />
             5678 Innovation Lane, Suite 300
             <br />
@@ -27,14 +29,14 @@ const ContactUs = () => {
             <br />
             United States
             <br />
-          </p>
+          </p> */}
           <p className="text-sm text-gray-600">
             <strong>Email:</strong>{" "}
             <a
-              href="mailto:info@rapidhub.com"
+              href="mailto:info@activtoprinter.com"
               className="text-blue-600 hover:underline"
             >
-              info@rapidhub.com
+              info@activtoprinter.com
             </a>
             <br />
             <strong>Phone:</strong> (408) 555-1234
@@ -125,8 +127,8 @@ const ContactUs = () => {
         </section>
 
         <p className="text-sm text-gray-700" style={{ marginTop: "20px" }}>
-          We appreciate your interest in Rapid Hub and look forward to assisting
-          you!
+          We appreciate your interest in Activto Printer and look forward to
+          assisting you!
         </p>
       </div>
       <Footer />
