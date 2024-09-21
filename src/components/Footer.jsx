@@ -118,22 +118,46 @@ const Footer = () => {
           <div className="col-md-5 col-lg-4">
             <ul className="list-inline text-center text-md-end mb-0">
               <li className="list-inline-item mx-2">
-                <a href="#!" className="text-light" aria-label="Facebook">
+                <a
+                  href="https://www.facebook.com/activtoprinter"
+                  className="text-light"
+                  aria-label="Facebook"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Facebook size={20} color="#fff" />
                 </a>
               </li>
               <li className="list-inline-item mx-2">
-                <a href="#!" className="text-light" aria-label="Twitter">
+                <a
+                  href="https://www.twitter.com/activtoprinter"
+                  className="text-light"
+                  aria-label="Twitter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Twitter size={20} color="#fff" />
                 </a>
               </li>
               <li className="list-inline-item mx-2">
-                <a href="#!" className="text-light" aria-label="Instagram">
+                <a
+                  href="https://www.instagram.com/activtoprinter"
+                  className="text-light"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Instagram size={20} color="#fff" />
                 </a>
               </li>
               <li className="list-inline-item mx-2">
-                <a href="#!" className="text-light" aria-label="LinkedIn">
+                <a
+                  href="https://www.linkedin.com/company/activtoprinter"
+                  className="text-light"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Linkedin size={20} color="#fff" />
                 </a>
               </li>
