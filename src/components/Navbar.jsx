@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
-import  blogo  from "../assets/brand_logo.png";
+import blogo from "../assets/brand_logo.png";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const state = useSelector((state) => state.handleCart);
@@ -12,14 +13,9 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
       <div className="container">
-        {/* <NavLink className="navbar-brand d-flex align-items-center" to="/">
-          <img
-            src={blogo}
-            alt="Logo"
-            width="40"
-            className="me-2"
-          />
-        </NavLink> */}
+        <NavLink className="navbar-brand d-flex align-items-center" to="/">
+          <img src={logo} alt="Logo" width="50" className="me-2" />
+        </NavLink>
 
         <button
           className="navbar-toggler"
@@ -40,22 +36,38 @@ const Navbar = () => {
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/">
+              <NavLink
+                className="nav-link"
+                to="/"
+                style={{ fontWeight: "bold" }}
+              >
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/product">
+              <NavLink
+                className="nav-link"
+                to="/product"
+                style={{ fontWeight: "bold" }}
+              >
                 Shop
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/about">
+              <NavLink
+                className="nav-link"
+                to="/about"
+                style={{ fontWeight: "bold" }}
+              >
                 About
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">
+              <NavLink
+                className="nav-link"
+                to="/contact"
+                style={{ fontWeight: "bold" }}
+              >
                 Contact
               </NavLink>
             </li>
