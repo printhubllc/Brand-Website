@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Footer, Navbar,SubNavBar } from "../components";
+import { Footer, Navbar, SubNavBar } from "../components";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
@@ -46,7 +46,6 @@ const Checkout = () => {
 
     return (
       <>
-      
         <div className="container py-5">
           <div className="row my-4">
             <div className="col-md-5 col-lg-4 order-md-last">
@@ -82,7 +81,11 @@ const Checkout = () => {
                   <h4 className="mb-0">Billing address</h4>
                 </div>
                 <div className="card-body">
-                  <form className="needs-validation" noValidate onSubmit={handleSubmit}>
+                  <form
+                    className="needs-validation"
+                    noValidate
+                    onSubmit={handleSubmit}
+                  >
                     <div className="row g-3">
                       <div className="col-sm-6 my-1">
                         <label htmlFor="firstName" className="form-label">
@@ -128,7 +131,8 @@ const Checkout = () => {
                           required
                         />
                         <div className="invalid-feedback">
-                          Please enter a valid email address for shipping updates.
+                          Please enter a valid email address for shipping
+                          updates.
                         </div>
                       </div>
 
@@ -298,7 +302,8 @@ const Checkout = () => {
         </div>
         {orderPlaced && (
           <div className="alert alert-success" role="alert">
-            Your order has been placed successfully. You will receive a confirmation email shortly.
+            Your order has been placed successfully. You will receive a
+            confirmation email shortly.
           </div>
         )}
       </>
@@ -307,14 +312,13 @@ const Checkout = () => {
 
   return (
     <>
-    
+      <Navbar />
       <div className="container my-3 py-3">
-      <Navbar/>
         <h1 className="text-center">Checkout</h1>
         <hr />
         {state.length ? <ShowCheckout /> : <EmptyCart />}
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

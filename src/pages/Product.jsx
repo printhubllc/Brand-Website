@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Skeleton from "react-loading-skeleton";
 import { Link, useParams } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import { useDispatch } from "react-redux";
 import { addCart } from "../redux/action";
 
-import { Footer, Navbar,SubNavBar } from "../components";
+import { Footer, Navbar, SubNavBar } from "../components";
 import lstImg from "../assets/LastImage.jpg";
 import lstImg2 from "../assets/1_Last.jpg";
 import lstImg3 from "../assets/2_last.jpg";
@@ -139,6 +141,19 @@ const Product = () => {
 
   const addProduct = (product) => {
     dispatch(addCart(product));
+    toast.success("Product added to cart!", {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      style: {
+        background: "#3498db",
+        color: "#fff",
+      },
+    });
   };
 
   const Loading = () => (
@@ -176,7 +191,10 @@ const Product = () => {
           <h4 className="text-uppercase text-muted">{product.category}</h4>
           <h1 className="display-5">{product.title}</h1>
           <p className="lead">
-            Rating: <i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i>
+            Rating: <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
           </p>{" "}
           {/* Placeholder for rating */}
           <h3 className="display-6 my-4">${product.price}</h3>
@@ -252,8 +270,9 @@ const Product = () => {
 
   return (
     <>
-     <Navbar /> 
-     {/* <SubNavBar /> */}
+      <Navbar />
+      <ToastContainer />
+      {/* <SubNavBar /> */}
       <div className="container">
         <div className="row">
           {loading ? <Loading /> : product && <ShowProduct />}
@@ -267,7 +286,7 @@ const Product = () => {
           </div>
         </div>
       </div>
-     <Footer/>
+      <Footer />
     </>
   );
 };

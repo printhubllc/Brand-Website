@@ -17,7 +17,7 @@ const ContactUs = () => {
         </p>
 
         <section style={{ marginTop: "20px" }}>
-          {/* <h3 className="text-lg font-medium">Our Location</h3>
+          <h3 className="text-lg font-medium">Our Location</h3>
           <p className="text-sm text-gray-600">
             <strong>Address:</strong>
             <br />
@@ -29,7 +29,7 @@ const ContactUs = () => {
             <br />
             United States
             <br />
-          </p> */}
+          </p>
           <p className="text-sm text-gray-600">
             <strong>Email:</strong>{" "}
             <a

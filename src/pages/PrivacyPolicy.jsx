@@ -176,12 +176,12 @@ const PrivacyPolicy = () => {
           <address>
             <strong>Activto Printer</strong>
             <br />
-            {/* 5678 Innovation Lane, Suite 300
+            5678 Innovation Lane, Suite 300
             <br />
             San Jose, CA 95134
             <br />
             United States
-            <br /> */}
+            <br />
             Email:{" "}
             <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>
           </address>
