@@ -60,7 +60,7 @@ root.render(
           <Route path="/gdpr" element={<Gdpr />} />
           <Route path="/setup-guide" element={<SetupGuide />} />
           <Route path="/downloading" element={<Downloading />} />
-          <Route path="/loading" element={<Loading />} />
+          <Route path="/loadingss" element={<Loading />} />
           <Route path="/error" element={<Error />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<Login />} />

@@ -230,11 +230,12 @@ const PrinterSetupGuide = () => {
           <div className="alert alert-warning" role="alert">
             <h4 className="alert-heading">Disclaimer</h4>
             <p className="mb-0">
-              Please note that I am an individual reseller of printers, both
-              online and offline, and not an official representative of HP or
-              any other printer brand. The information provided here is based on
-              general knowledge and experience. For official support, please
-              contact the manufacturer directly.
+              I am an independent reseller of printers and do not represent HP
+              or any other printer brand. The information provided herein is
+              based on my personal knowledge and experience. For official
+              support or inquiries, please contact the respective manufacturer
+              directly. Furthermore, I reserve the right to remove any images
+              that may be subject to copyright
             </p>
           </div>
         </div>
