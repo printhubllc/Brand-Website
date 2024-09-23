@@ -15,8 +15,7 @@ const PrivacyPolicy = () => {
           <p>
             At <strong>Activto Printer</strong>, we are committed to protecting
             your privacy. This Privacy Policy explains how we collect, use, and
-            safeguard your personal information when you visit our website or
-            engage with our troubleshooting services. By using our website, you
+            safeguard your personal information when you register our website. By using our website, you
             agree to the practices described in this policy.
           </p>
         </section>
@@ -30,7 +29,7 @@ const PrivacyPolicy = () => {
             <li>
               <strong>Personal Information:</strong> Such as your name, email
               address, and any information you provide when contacting us for
-              troubleshooting support.
+              troubleshooting.
             </li>
             <li>
               <strong>Technical Information:</strong> Includes details such as
