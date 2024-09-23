@@ -44,7 +44,7 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink
                 className="nav-link"
                 to="/product"
@@ -52,7 +52,7 @@ const Navbar = () => {
               >
                 Shop
               </NavLink>
-            </li>
+            </li> */}
             <li className="nav-item">
               <NavLink
                 className="nav-link"
@@ -92,10 +92,10 @@ const Navbar = () => {
             <NavLink to="/register" className="btn btn-outline-dark me-2">
               <i className="fa fa-user-plus text-dark"></i> Register
             </NavLink>
-            <NavLink to="/cart" className="btn btn-outline-dark">
+            {/* <NavLink to="/cart" className="btn btn-outline-dark">
               <i className="fa fa-cart-shopping text-dark"></i> Cart (
               {state.length})
-            </NavLink>
+            </NavLink> */}
           </div>
         </div>
       </div>

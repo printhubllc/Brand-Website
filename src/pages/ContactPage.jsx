@@ -8,20 +8,19 @@ const ContactUs = () => {
       {/* <SubNavBar /> */}
       <div className="contact-us" style={{ margin: "0 20px", padding: "20px" }}>
         <h2 className="text-xl font-semibold">
-          Get in Touch with Activto Printer
+          Get in Touch
         </h2>
         <p className="text-sm text-gray-700">
-          We are here to assist you with any inquiries, concerns, or feedback
-          regarding our products and services. Our dedicated team is ready to
-          offer support and ensure your satisfaction.
+          We are an independent printer seller, offering a wide range of printers
+          and occasional troubleshooting tips. While we are not an authorized
+          partner of any specific brand, we take pride in providing reliable
+          products and services through our offline markets.
         </p>
 
         <section style={{ marginTop: "20px" }}>
           <h3 className="text-lg font-medium">Our Location</h3>
           <p className="text-sm text-gray-600">
             <strong>Address:</strong>
-            <br />
-            Activto Printer
             <br />
             5678 Innovation Lane, Suite 300
             <br />
@@ -61,8 +60,9 @@ const ContactUs = () => {
         <section style={{ marginTop: "20px" }}>
           <h3 className="text-lg font-medium">Support and Assistance</h3>
           <p className="text-sm text-gray-600">
-            For any general questions or help with orders, please contact us via
-            email or phone. Our team is here to provide the support you need.
+            For any questions or troubleshooting tips, feel free to reach out. 
+            Though we don’t provide official technical support, we are happy to
+            offer general guidance and recommendations to help you with your printers.
           </p>
         </section>
 
@@ -71,31 +71,29 @@ const ContactUs = () => {
             Sales and Business Opportunities
           </h3>
           <p className="text-sm text-gray-600">
-            If you are interested in bulk purchases or have specific product
-            inquiries, our sales team is ready to assist you with tailored
-            information and solutions.
+            Interested in bulk purchases or specific product inquiries? 
+            Our team is ready to assist you with personalized solutions for 
+            your printer needs.
           </p>
         </section>
 
         <section style={{ marginTop: "20px" }}>
           <h3 className="text-lg font-medium">Share Your Thoughts</h3>
           <p className="text-sm text-gray-600">
-            We value your feedback as it helps us improve our services. Please
-            let us know your thoughts or suggestions to help us serve you
-            better.
+            Your feedback is valuable to us! Let us know how we can improve 
+            our services or provide better products to meet your needs.
           </p>
         </section>
 
         <section style={{ marginTop: "20px" }}>
           <h3 className="text-lg font-medium">Follow Us Online</h3>
           <p className="text-sm text-gray-600">
-            Stay updated with our latest news and promotions by connecting with
-            us on social media:
+            Stay connected for updates on our product offerings and promotions:
           </p>
           <ul style={{ listStyleType: "none", padding: "0" }}>
             <li>
               <a
-                href="https://facebook.com/rapidhub"
+                href="https://facebook.com/activtoprinter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
@@ -105,7 +103,7 @@ const ContactUs = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com/rapidhub"
+                href="https://twitter.com/activtoprinter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
@@ -115,7 +113,7 @@ const ContactUs = () => {
             </li>
             <li>
               <a
-                href="https://linkedin.com/company/rapidhub"
+                href="https://linkedin.com/company/activtoprinter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
@@ -127,8 +125,7 @@ const ContactUs = () => {
         </section>
 
         <p className="text-sm text-gray-700" style={{ marginTop: "20px" }}>
-          We appreciate your interest in Activto Printer and look forward to
-          assisting you!
+          We appreciate your interest and look forward to assisting you!
         </p>
       </div>
       <Footer />

@@ -15,7 +15,7 @@ function Home() {
       {/* <SubNavBar /> */}
       {/* <Main /> */}
       {/* <BelowMain /> */}
-      <Product />
+      {/* <Product /> */}
       <Guides />
       <Footer />
     </>

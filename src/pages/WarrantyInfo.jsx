@@ -1,13 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { FaShieldAlt, FaCalendarCheck, FaCogs } from "react-icons/fa";
-import { Navbar, Footer, SubNavBar } from "../components";
+import { Navbar, Footer } from "../components";
 
 const WarrantyInformation = () => {
   return (
     <>
       <Navbar />
-      {/* <SubNavBar />{" "} */}
       <Container className="my-5">
         <Row className="mb-4">
           <Col className="text-center">
@@ -16,7 +15,7 @@ const WarrantyInformation = () => {
               At Activto Printer, we stand behind the quality of our products.
               Our warranty covers defects in materials and workmanship for a
               specified period. Please review the details below to understand
-              our warranty policy.
+              our warranty policy for printers purchased offline.
             </p>
           </Col>
         </Row>
@@ -43,9 +42,9 @@ const WarrantyInformation = () => {
                   Warranty Period
                 </Card.Title>
                 <Card.Text>
-                  The warranty period begins on the date of purchase. To
-                  activate your warranty, please keep your purchase receipt and
-                  register your product online within 30 days of purchase.
+                  The warranty period begins on the date of purchase. Please
+                  retain your purchase receipt, as it will be required for any
+                  warranty claims.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -59,7 +58,7 @@ const WarrantyInformation = () => {
                   To make a warranty claim, please contact our customer support
                   team with your product details and proof of purchase. Our team
                   will guide you through the process of obtaining repair or
-                  replacement based on the warranty terms.
+                  replacement based on the warranty terms for offline purchases.
                 </Card.Text>
               </Card.Body>
             </Card>

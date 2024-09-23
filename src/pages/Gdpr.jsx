@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, SubNavBar, Footer } from "../components";
+import { Navbar, Footer } from "../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLock,
@@ -7,23 +7,21 @@ import {
   faDatabase,
   faInfoCircle,
   faEnvelope,
-  faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
 const GDPRCompliance = () => {
   return (
     <>
       <Navbar />
-      {/* <SubNavBar /> */}
       <div className="container mx-auto px-4 py-6">
-        <h1 className="text-3xl font-bold mb-6 text-center">GDPR Compliance</h1>
+        <h1 className="text-xl font-bold mb-4 text-center">GDPR COMPLIANCE</h1>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold flex items-center mb-3">
+          <h2 className="text-lg font-semibold flex items-center mb-2">
             <FontAwesomeIcon icon={faLock} className="mr-2" />
-            1. Introduction
+            1. INTRODUCTION
           </h2>
-          <p className="text-base text-gray-700">
+          <p className="text-sm text-gray-700">
             At Activto Printer, we are committed to ensuring the privacy and
             protection of your personal data. This GDPR Compliance page explains
             how we collect, use, and protect your data in accordance with the
@@ -32,35 +30,35 @@ const GDPRCompliance = () => {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold flex items-center mb-3">
+          <h2 className="text-lg font-semibold flex items-center mb-2">
             <FontAwesomeIcon icon={faUserShield} className="mr-2" />
-            2. Data Collection
+            2. DATA COLLECTION
           </h2>
-          <p className="text-base text-gray-700">
+          <p className="text-sm text-gray-700">
             We collect personal data that you voluntarily provide to us, such as
-            your name, email address, and contact details when you use our
-            services or interact with our website.
+            your name and contact details when you purchase products offline or
+            request support services.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold flex items-center mb-3">
+          <h2 className="text-lg font-semibold flex items-center mb-2">
             <FontAwesomeIcon icon={faDatabase} className="mr-2" />
-            3. Data Usage
+            3. DATA USAGE
           </h2>
-          <p className="text-base text-gray-700">
-            The data we collect is used to provide and improve our services,
-            communicate with you, and fulfill legal obligations. We ensure that
-            your data is handled securely and only for the purposes stated.
+          <p className="text-sm text-gray-700">
+            The data we collect is used to manage offline transactions, provide
+            support, and ensure compliance with legal obligations. Your data is
+            handled securely and only for the purposes stated.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold flex items-center mb-3">
+          <h2 className="text-lg font-semibold flex items-center mb-2">
             <FontAwesomeIcon icon={faInfoCircle} className="mr-2" />
-            4. Your Rights
+            4. YOUR RIGHTS
           </h2>
-          <p className="text-base text-gray-700">
+          <p className="text-sm text-gray-700">
             Under GDPR, you have the right to access, correct, or delete your
             personal data. You also have the right to restrict or object to
             certain processing activities and to data portability.
@@ -68,17 +66,16 @@ const GDPRCompliance = () => {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold flex items-center mb-3">
+          <h2 className="text-lg font-semibold flex items-center mb-2">
             <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-            5. Contact Us
+            5. CONTACT US
           </h2>
-          <p className="text-base text-gray-700">
+          <p className="text-sm text-gray-700">
             If you have any questions or concerns regarding our GDPR compliance
             or your personal data, please contact us:
           </p>
-          <address className="mt-4 text-base text-gray-700">
+          <address className="mt-4 text-sm text-gray-700">
             <strong>Activto Printer</strong>
-            <br />
             <br />
             5678 Innovation Lane, Suite 300
             <br />

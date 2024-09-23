@@ -1,11 +1,10 @@
 import React from "react";
-import { Navbar, SubNavBar, Footer } from "../components";
+import { Navbar, Footer } from "../components";
 
 const CookiesPolicy = () => {
   return (
     <>
       <Navbar />
-      {/* <SubNavBar /> */}
       <div
         className="container mx-auto px-4 py-6"
         style={{ fontFamily: "'Roboto', sans-serif" }}
@@ -23,10 +22,9 @@ const CookiesPolicy = () => {
               1. What Are Cookies?{" "}
             </span>
             Cookies are small text files placed on your device (computer,
-            smartphone, tablet) by websites you visit. They are used to make
-            websites function more efficiently and provide reporting
-            information. Cookies can be categorized based on their function and
-            duration.
+            smartphone, tablet) by websites you visit. They are used to enhance
+            website functionality and provide analytical insights. Cookies can
+            be categorized based on their function and duration.
           </p>
         </section>
 
@@ -41,33 +39,25 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               2.1. Essential Cookies:{" "}
             </span>
-            These cookies are necessary for the operation of our Site. They
-            enable core functionalities such as secure logins and shopping cart
-            functionality.
+            These cookies are necessary for the basic functionality of our site.
+            They enable essential features such as secure login and website
+            navigation.
           </p>
 
           <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
             <span className="font-bold" style={{ fontWeight: 700 }}>
               2.2. Performance Cookies:{" "}
             </span>
-            Performance cookies collect information about how visitors use our
-            Site, helping us improve its performance and usability.
+            Performance cookies collect data on how users interact with the site
+            to improve its performance and user experience.
           </p>
 
           <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
             <span className="font-bold" style={{ fontWeight: 700 }}>
               2.3. Functional Cookies:{" "}
             </span>
-            Functional cookies allow the Site to remember your preferences and
-            provide personalized content tailored to your needs.
-          </p>
-
-          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
-            <span className="font-bold" style={{ fontWeight: 700 }}>
-              2.4. Targeting/Advertising Cookies:{" "}
-            </span>
-            These cookies deliver advertisements relevant to your interests and
-            help measure the effectiveness of advertising campaigns.
+            These cookies allow the site to remember your preferences, such as
+            language settings and display options.
           </p>
         </section>
 
@@ -76,8 +66,10 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               3. How We Use Cookies:{" "}
             </span>
-            We use cookies to enhance user experience, analyze site usage, and
-            deliver targeted advertising.
+            We use cookies to enhance user experience and to improve the
+            usability of the site. Since we do not offer online purchase options
+            and only provide troubleshooting tips, cookies are mainly used for
+            website navigation and performance analytics.
           </p>
         </section>
 
@@ -86,8 +78,9 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               4. Third-Party Cookies:{" "}
             </span>
-            In addition to our own cookies, we may use cookies from third-party
-            service providers for analytics, advertising, and other purposes.
+            We do not use third-party cookies for advertising. However, we may
+            use cookies from third-party services to monitor website performance
+            and analyze user interaction.
           </p>
         </section>
 
@@ -97,9 +90,8 @@ const CookiesPolicy = () => {
               5. Managing Cookies:{" "}
             </span>
             You can manage and control cookies through your browser settings.
-            Most browsers allow you to block or delete cookies, or set
-            preferences for handling them. Note that disabling cookies may
-            impact the functionality of the Site.
+            Most browsers allow you to block or delete cookies. Please note that
+            blocking cookies may limit some features of our site.
           </p>
         </section>
 
@@ -108,9 +100,9 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               6. Changes to This Policy:{" "}
             </span>
-            We may update this Cookies Policy to reflect changes in technology,
-            regulations, or practices. Revised policies will be posted with an
-            updated effective date.
+            We may update this Cookies Policy to reflect changes in our services
+            or legal requirements. We encourage you to review this policy
+            regularly.
           </p>
         </section>
 
@@ -119,8 +111,8 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               7. Contact Us:{" "}
             </span>
-            For any questions regarding our use of cookies or this policy,
-            please reach out to us:
+            If you have any questions regarding our use of cookies or this
+            policy, please contact us:
           </p>
           <address className="mt-4 text-base text-gray-700">
             <strong>Activto Printer</strong>
