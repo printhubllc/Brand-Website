@@ -60,7 +60,7 @@ const PrinterSetupGuide = () => {
               </li>
               <li>
                 <strong>Check for any error messages on the printer display.</strong>
-                <p>Take note of any specific error codes or messages. Refer to the printer's manual for troubleshooting steps related to those codes.</p>
+                <p>Take note of any specific error codes or messages. Refer to the manual for troubleshooting steps related to those codes.</p>
               </li>
               <li>
                 <strong>Ensure all cables are securely connected.</strong>
@@ -68,45 +68,44 @@ const PrinterSetupGuide = () => {
               </li>
               <li>
                 <strong>If the error persists, contact our support team.</strong>
-                <p>Have your printer model and error code ready for quicker assistance.</p>
+                <p>Have your printer's details and error code ready for quicker assistance.</p>
               </li>
             </ol>
           </div>
         );
   
-        case "wifi":
-          return (
-            <div className="alert alert-info">
-              <h4 className="alert-heading">Connecting to Wi-Fi</h4>
-              <ol>
-                <li>
-                  <strong>Download the HP Smart app.</strong>
-                  <p>Visit your device's app store and download the HP Smart app, which simplifies the setup and management of your printer.</p>
-                </li>
-                <li>
-                  <strong>On the printer control panel, go to the Network settings.</strong>
-                  <p>Use the arrow keys to navigate through the settings menu until you find the Network option.</p>
-                </li>
-                <li>
-                  <strong>Select "Wireless" and then "Wireless Setup Wizard".</strong>
-                  <p>This will guide you through connecting your printer to Wi-Fi.</p>
-                </li>
-                <li>
-                  <strong>Choose your Wi-Fi network from the list.</strong>
-                  <p>Ensure you select the correct network, especially if you have multiple networks in your home or office.</p>
-                </li>
-                <li>
-                  <strong>Enter your Wi-Fi password when prompted.</strong>
-                  <p>Use the on-screen keyboard to enter the password accurately. Remember that passwords are case-sensitive.</p>
-                </li>
-                <li>
-                  <strong>Wait for the printer to connect to the network.</strong>
-                  <p>This may take a few moments. A successful connection will typically be indicated by a confirmation message on the screen.</p>
-                </li>
-              </ol>
-            </div>
-          );
-        
+      case "wifi":
+        return (
+          <div className="alert alert-info">
+            <h4 className="alert-heading">Connecting to Wi-Fi</h4>
+            <ol>
+              <li>
+                <strong>Download the printer management app.</strong>
+                <p>Visit your device's app store and download the app, which simplifies the setup and management of your printer.</p>
+              </li>
+              <li>
+                <strong>On the printer control panel, go to the Network settings.</strong>
+                <p>Use the arrow keys to navigate through the settings menu until you find the Network option.</p>
+              </li>
+              <li>
+                <strong>Select "Wireless" and then "Wireless Setup Wizard".</strong>
+                <p>This will guide you through connecting your printer to Wi-Fi.</p>
+              </li>
+              <li>
+                <strong>Choose your Wi-Fi network from the list.</strong>
+                <p>Ensure you select the correct network, especially if you have multiple networks in your home or office.</p>
+              </li>
+              <li>
+                <strong>Enter your Wi-Fi password when prompted.</strong>
+                <p>Use the on-screen keyboard to enter the password accurately. Remember that passwords are case-sensitive.</p>
+              </li>
+              <li>
+                <strong>Wait for the printer to connect to the network.</strong>
+                <p>This may take a few moments. A successful connection will typically be indicated by a confirmation message on the screen.</p>
+              </li>
+            </ol>
+          </div>
+        );
   
       case "device":
         return (
@@ -123,7 +122,7 @@ const PrinterSetupGuide = () => {
               </li>
               <li>
                 <strong>For smartphones: Download the printer app from your app store.</strong>
-                <p>Search for the official app associated with your printer brand, and ensure you download the correct version for your device.</p>
+                <p>Search for the official app associated with your printer, and ensure you download the correct version for your device.</p>
               </li>
               <li>
                 <strong>Follow the on-screen instructions to add the printer.</strong>
@@ -214,10 +213,10 @@ const PrinterSetupGuide = () => {
               </li>
               <li>
                 <strong>Replace empty or faulty cartridges with new ones.</strong>
-                <p>Always use genuine cartridges recommended for your printer model to avoid compatibility issues.</p>
+                <p>Always use genuine cartridges recommended for your printer to avoid compatibility issues.</p>
               </li>
               <li>
-                <strong>Ensure you're using compatible cartridges for your printer model.</strong>
+                <strong>Ensure you're using compatible cartridges for your printer.</strong>
                 <p>Using non-compatible cartridges can lead to various printing issues, so always check the specifications.</p>
               </li>
             </ol>
@@ -229,7 +228,7 @@ const PrinterSetupGuide = () => {
           <div className="alert alert-warning">
             <h4 className="alert-heading">Other Issues</h4>
             <p>
-              For other issues not listed here, please consult the printer's manual or contact our support team for personalized assistance. Be sure to provide details about your problem, including model number and any error codes.
+              For other issues not listed here, please consult the printer's manual or contact our support team for personalized assistance. Be sure to provide details about your problem, including any error codes.
             </p>
           </div>
         );
@@ -239,385 +238,367 @@ const PrinterSetupGuide = () => {
     }
   };
   
+  
 
   return (
     <div className="container my-5">
-      <h1 className="display-4 mb-4 text-center">
-        Comprehensive HP Printer Setup and Troubleshooting Guide
-      </h1>
-
-      <div className="row">
-        <div className="col-lg-8 mx-auto">
-          <div className="card mb-4">
-            <div className="card-body">
-              <h2 className="card-title h4">Common Issues</h2>
-              <select
-                className="form-select mb-3"
-                value={selectedError}
-                onChange={(e) => setSelectedError(e.target.value)}
-              >
-                {errorOptions.map((option) => (
-                  <option key={option.value} value={option.value}>
-                    {option.label}
-                  </option>
-                ))}
-              </select>
-              {renderErrorContent()}
-            </div>
+    <h1 className="display-4 mb-4 text-center">
+      Comprehensive Printer Setup and Troubleshooting Guide
+    </h1>
+  
+    <div className="row">
+      <div className="col-lg-8 mx-auto">
+        <div className="card mb-4">
+          <div className="card-body">
+            <h2 className="card-title h4">Common Issues</h2>
+            <select
+              className="form-select mb-3"
+              value={selectedError}
+              onChange={(e) => setSelectedError(e.target.value)}
+            >
+              {errorOptions.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+            {renderErrorContent()}
           </div>
-
-          <div className="card mb-4">
-            <div className="card-body">
-              <h2 className="card-title h4">
-                <FontAwesomeIcon
-                  icon={faInfoCircle}
-                  className="me-2 text-info"
+        </div>
+  
+        <div className="card mb-4">
+          <div className="card-body">
+            <h2 className="card-title h4">
+              <FontAwesomeIcon
+                icon={faInfoCircle}
+                className="me-2 text-info"
+              />
+              Detailed Printer Setup Process
+            </h2>
+            <ol className="card-text">
+              <li>
+                <strong>Unboxing:</strong>
+                <p>
+                  Carefully remove your printer from its packaging. Look for any
+                  tabs and tape used to secure moving parts during shipping. Remove
+                  all tape, protective films, and packing materials. For larger models,
+                  you may need to remove additional cardboard inserts.
+                </p>
+                <img
+                  src={img1}
+                  alt="Unboxing the printer"
+                  className="img-fluid mb-3"
                 />
-                Detailed HP Printer Setup Process
-              </h2>
-              <ol className="card-text">
-                <li>
-                  <strong>Unboxing:</strong>
-                  <p>
-                    Carefully remove your HP printer from its packaging. Look
-                    for the orange tabs and tape, which are typically used to
-                    secure moving parts during shipping. Remove all tape,
-                    protective films, and packing materials. For larger HP
-                    OfficeJet Pro models, you may need to remove additional
-                    cardboard inserts.
-                  </p>
-                  <img
-                    src={img1}
-                    alt="Unboxing the HP printer"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Power Connection:</strong>
-                  <p>
-                    Locate the power cord that came with your HP printer.
-                    Connect one end to the back of the printer and the other end
-                    to a power outlet. Most HP printers have a clearly marked
-                    power input on the rear panel. Press the power button,
-                    usually marked with the standard power symbol, to turn on
-                    the printer.
-                  </p>
-                  <img
-                    src={img2}
-                    alt="Connecting power to the HP printer"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Install Ink Cartridges:</strong>
-                  <p>
-                    For HP printers, open the ink cartridge access door. This is
-                    usually located on the front of the printer and may have a
-                    small indent for easy opening. Remove each ink cartridge
-                    from its packaging and remove the protective tape. Install
-                    each cartridge in its corresponding slot - they are usually
-                    color-coded for easy identification. Push each cartridge in
-                    until it clicks into place. Close the access door when
-                    finished.
-                  </p>
-                  <img
-                    src={img3}
-                    alt="Installing ink cartridges in HP printer"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Load Paper:</strong>
-                  <p>
-                    Locate the paper tray on your HP printer. For most models,
-                    this is at the bottom front of the printer. Pull out the
-                    tray and adjust the paper guides to fit your paper size.
-                    Load a stack of paper (usually up to 250 sheets for standard
-                    HP printers) with the print side down. Slide the tray back
-                    into the printer until it clicks into place.
-                  </p>
-                  <img
-                    src={img4}
-                    alt="Loading paper into the HP printer"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Software Installation:</strong>
-                  <p>
-                    Visit the HP Support website
-                    (https://support.hp.com/us-en/drivers) and enter your
-                    printer model. Download the latest full feature driver for
-                    your operating system. Run the installer and follow the
-                    on-screen instructions. The HP installer will typically
-                    guide you through connecting your printer to your computer
-                    and network.
-                  </p>
-                  <img
-                    src={img5}
-                    alt="Installing HP printer software"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Network Connection:</strong>
-                  <p>
-                    For Wi-Fi: On your HP printer's control panel, navigate to
-                    the Network or Wireless settings. Select "Wireless Setup
-                    Wizard" and follow the prompts to connect to your Wi-Fi
-                    network. For wired connection: Connect an Ethernet cable
-                    from your router to the Ethernet port on the back of your HP
-                    printer.
-                  </p>
-                  <img
-                    src={img6}
-                    alt="Connecting HP printer to network"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Alignment:</strong>
-                  <p>
-                    HP printers typically prompt you to align the print heads
-                    after initial setup. If not, you can initiate this from the
-                    printer's control panel. Go to Setup {">"} Tools {">"} Align
-                    Printer. The printer will print an alignment page and use
-                    its scanner to read the page and align itself automatically.
-                  </p>
-                  <img
-                    src={img7}
-                    alt="Aligning HP printer heads"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Test Print:</strong>
-                  <p>
-                    From your computer, open a document and select 'Print'.
-                    Choose your newly installed HP printer from the list of
-                    available printers. Click 'Print' to send a test page to
-                    your printer. Alternatively, you can print a test page
-                    directly from the printer's control panel by navigating to
-                    Reports {">"} Print Quality Report.
-                  </p>
-                  <img
-                    src={img8}
-                    alt="Printing a test page on HP printer"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-              </ol>
-            </div>
-          </div>
-
-          <div className="card mb-4">
-            <div className="card-body">
-              <h2 className="card-title h4">
-                <FontAwesomeIcon icon={faWifi} className="me-2 text-primary" />
-                HP Printer Wi-Fi Connection Guide
-              </h2>
-              <ol className="card-text">
-                <li>
-                  On your HP printer's control panel, locate and tap the
-                  Wireless icon or go to Setup {">"} Network.
-                </li>
-                <li>Select "Wireless Setup Wizard" from the menu.</li>
-                <li>
-                  The printer will scan for available networks. Choose your
-                  Wi-Fi network from the list.
-                </li>
-                <li>
-                  When prompted, enter your Wi-Fi password using the printer's
-                  touch screen or keypad. Be careful to enter it correctly,
-                  including any uppercase or lowercase letters.
-                </li>
-                <li>
-                  The printer will attempt to connect to your network. This may
-                  take a few minutes.
-                </li>
-                <li>
-                  Once connected, you can print a Wireless Network Test report
-                  to verify the connection. Go to Setup {">"} Reports {">"}{" "}
-                  Network Configuration Page.
-                </li>
-              </ol>
-              <img
-                src={img9}
-                alt="HP printer Wi-Fi setup process"
-                className="img-fluid mb-3"
-              />
-            </div>
-          </div>
-
-          <div className="card mb-4">
-            <div className="card-body">
-              <h2 className="card-title h4">
-                <FontAwesomeIcon
-                  icon={faLaptop}
-                  className="me-2 text-success"
+              </li>
+              <li>
+                <strong>Power Connection:</strong>
+                <p>
+                  Locate the power cord that came with your printer. Connect one
+                  end to the back of the printer and the other end to a power outlet.
+                  Most printers have a clearly marked power input on the rear panel.
+                  Press the power button to turn on the printer.
+                </p>
+                <img
+                  src={img2}
+                  alt="Connecting power to the printer"
+                  className="img-fluid mb-3"
                 />
-                <FontAwesomeIcon
-                  icon={faMobileAlt}
-                  className="me-2 text-success"
+              </li>
+              <li>
+                <strong>Install Ink Cartridges:</strong>
+                <p>
+                  Open the ink cartridge access door, usually located on the front
+                  of the printer. Remove each cartridge from its packaging and remove
+                  the protective tape. Install each cartridge in its corresponding slot,
+                  which are typically color-coded for easy identification. Push each
+                  cartridge in until it clicks into place. Close the access door when finished.
+                </p>
+                <img
+                  src={img3}
+                  alt="Installing ink cartridges"
+                  className="img-fluid mb-3"
                 />
-                Connecting HP Printer to Devices
-              </h2>
-              <h3 className="h5">Laptop Connection:</h3>
-              <ol className="card-text">
-                <li>
-                  Ensure your laptop and HP printer are on the same Wi-Fi
-                  network.
-                </li>
-                <li>
-                  Go to hp.com/support and download the full feature driver for
-                  your specific HP printer model.
-                </li>
-                <li>
-                  Run the installer and follow the prompts. It will guide you
-                  through adding your printer.
-                </li>
-                <li>
-                  When prompted, select your HP printer from the list of
-                  discovered devices.
-                </li>
-                <li>
-                  Complete the setup and print a test page to confirm the
-                  connection.
-                </li>
-              </ol>
-              <img
-                src={img10}
-                alt="Connecting HP printer to laptop"
-                className="img-fluid mb-3"
-              />
-
-              <h3 className="h5">Smartphone Connection:</h3>
-              <ol className="card-text">
-                <li>
-                  Download the HP Smart app from your device's app store (iOS or
-                  Android).
-                </li>
-                <li>
-                  Open the HP Smart app and tap the plus sign to add a printer.
-                </li>
-                <li>
-                  The app will search for available HP printers on your network.
-                  Select your printer when it appears.
-                </li>
-                <li>
-                  If prompted, enter any required PIN displayed on the printer's
-                  control panel.
-                </li>
-                <li>
-                  Once connected, try printing a photo or document from your
-                  phone to test the connection.
-                </li>
-              </ol>
-              <img
-                src={img11}
-                alt="Connecting HP printer to smartphone"
-                className="img-fluid mb-3"
-              />
-            </div>
-          </div>
-
-          <div className="card mb-4">
-            <div className="card-body">
-              <h2 className="card-title h4">
-                <FontAwesomeIcon icon={faTint} className="me-2 text-danger" />
-                HP Ink Management Tips
-              </h2>
-              <ul className="card-text">
-                <li>
-                  Always use genuine HP ink cartridges. They are designed
-                  specifically for your printer and provide the best print
-                  quality and reliability.
-                </li>
-                <li>
-                  Store spare HP ink cartridges in their original sealed
-                  packages in a cool, dry place. Avoid direct sunlight and
-                  extreme temperatures.
-                </li>
-                <li>
-                  When installing a new HP cartridge, gently shake it
-                  horizontally for about 10 seconds to ensure even ink
-                  distribution.
-                </li>
-                <li>
-                  If you don't print often, run a cleaning cycle every few
-                  weeks. On most HP printers, you can do this by going to Setup
-                  {">"} Tools {">"} Clean Printhead.
-                </li>
-                <li>
-                  For everyday documents, use the draft or economy mode in your
-                  print settings to conserve ink. Reserve high-quality settings
-                  for important documents or photos.
-                </li>
-              </ul>
-              <img
-                src={img12}
-                alt="HP ink cartridge management"
-                className="img-fluid mb-3"
-              />
-            </div>
-          </div>
-
-          <div className="card mb-4">
-            <div className="card-body">
-              <h2 className="card-title h4">
-                <FontAwesomeIcon
-                  icon={faPaperPlane}
-                  className="me-2 text-warning"
+              </li>
+              <li>
+                <strong>Load Paper:</strong>
+                <p>
+                  Locate the paper tray on your printer. For most models, this is
+                  at the bottom front of the printer. Pull out the tray and adjust
+                  the paper guides to fit your paper size. Load a stack of paper
+                  with the print side down. Slide the tray back into the printer
+                  until it clicks into place.
+                </p>
+                <img
+                  src={img4}
+                  alt="Loading paper into the printer"
+                  className="img-fluid mb-3"
                 />
-                Optimizing HP Print Quality
-              </h2>
-              <ol className="card-text">
-                <li>
-                  In your print dialog, always select the correct paper type
-                  that matches what you've loaded in the printer. This ensures
-                  the right amount of ink is used.
-                </li>
-                <li>
-                  Regularly align your print heads. On most HP printers, go to
-                  Setup {">"} Tools {">"} Align Printhead.
-                </li>
-                <li>
-                  If you notice streaking or missing colors, clean the print
-                  heads. Go to Setup {">"} Tools {">"} Clean Printhead.
-                </li>
-                <li>
-                  For photos or important documents, use HP Advanced Photo Paper
-                  or HP Premium Presentation Paper for best results.
-                </li>
-                <li>
-                  Adjust color settings in your HP printer properties for
-                  specific needs. For photos, try using HP's "Photo fix" option
-                  if available.
-                </li>
-              </ol>
-              <img
-                src={img13}
-                alt="Optimizing HP print quality"
-                className="img-fluid mb-3"
+              </li>
+              <li>
+                <strong>Software Installation:</strong>
+                <p>
+                  Visit the manufacturer's support website and enter your printer model.
+                  Download the latest full feature driver for your operating system.
+                  Run the installer and follow the on-screen instructions. The installer
+                  will typically guide you through connecting your printer to your
+                  computer and network.
+                </p>
+                <img
+                  src={img5}
+                  alt="Installing printer software"
+                  className="img-fluid mb-3"
+                />
+              </li>
+              <li>
+                <strong>Network Connection:</strong>
+                <p>
+                  For Wi-Fi: On your printer's control panel, navigate to the Network
+                  or Wireless settings. Select "Wireless Setup Wizard" and follow the
+                  prompts to connect to your Wi-Fi network. For wired connection:
+                  Connect an Ethernet cable from your router to the Ethernet port on
+                  the back of your printer.
+                </p>
+                <img
+                  src={img6}
+                  alt="Connecting printer to network"
+                  className="img-fluid mb-3"
+                />
+              </li>
+              <li>
+                <strong>Alignment:</strong>
+                <p>
+                  Printers typically prompt you to align the print heads after initial
+                  setup. If not, you can initiate this from the printer's control panel.
+                  Go to Setup {">"} Tools {">"} Align Printer. The printer will print
+                  an alignment page and use its scanner to read the page and align
+                  itself automatically.
+                </p>
+                <img
+                  src={img7}
+                  alt="Aligning printer heads"
+                  className="img-fluid mb-3"
+                />
+              </li>
+              <li>
+                <strong>Test Print:</strong>
+                <p>
+                  From your computer, open a document and select 'Print'. Choose your
+                  newly installed printer from the list of available printers. Click
+                  'Print' to send a test page to your printer. Alternatively, you can
+                  print a test page directly from the printer's control panel by
+                  navigating to Reports {">"} Print Quality Report.
+                </p>
+                <img
+                  src={img8}
+                  alt="Printing a test page"
+                  className="img-fluid mb-3"
+                />
+              </li>
+            </ol>
+          </div>
+        </div>
+  
+        <div className="card mb-4">
+          <div className="card-body">
+            <h2 className="card-title h4">
+              <FontAwesomeIcon icon={faWifi} className="me-2 text-primary" />
+              Printer Wi-Fi Connection Guide
+            </h2>
+            <ol className="card-text">
+              <li>
+                On your printer's control panel, locate and tap the Wireless icon
+                or go to Setup {">"} Network.
+              </li>
+              <li>Select "Wireless Setup Wizard" from the menu.</li>
+              <li>
+                The printer will scan for available networks. Choose your Wi-Fi
+                network from the list.
+              </li>
+              <li>
+                When prompted, enter your Wi-Fi password using the printer's touch
+                screen or keypad. Be careful to enter it correctly, including any
+                uppercase or lowercase letters.
+              </li>
+              <li>
+                The printer will attempt to connect to your network. This may take
+                a few minutes.
+              </li>
+              <li>
+                Once connected, you can print a Wireless Network Test report to
+                verify the connection. Go to Setup {">"} Reports {">"} Network
+                Configuration Page.
+              </li>
+            </ol>
+            <img
+              src={img9}
+              alt="Printer Wi-Fi setup process"
+              className="img-fluid mb-3"
+            />
+          </div>
+        </div>
+  
+        <div className="card mb-4">
+          <div className="card-body">
+            <h2 className="card-title h4">
+              <FontAwesomeIcon
+                icon={faLaptop}
+                className="me-2 text-success"
               />
-            </div>
+              <FontAwesomeIcon
+                icon={faMobileAlt}
+                className="me-2 text-success"
+              />
+              Connecting Printer to Devices
+            </h2>
+            <h3 className="h5">Laptop Connection:</h3>
+            <ol className="card-text">
+              <li>
+                Ensure your laptop and printer are on the same Wi-Fi network.
+              </li>
+              <li>
+                Visit the manufacturer's support website and download the full
+                feature driver for your specific printer model.
+              </li>
+              <li>
+                Run the installer and follow the prompts. It will guide you through
+                adding your printer.
+              </li>
+              <li>
+                When prompted, select your printer from the list of discovered devices.
+              </li>
+              <li>
+                Complete the setup and print a test page to confirm the connection.
+              </li>
+            </ol>
+            <img
+              src={img10}
+              alt="Connecting printer to laptop"
+              className="img-fluid mb-3"
+            />
+  
+            <h3 className="h5">Smartphone Connection:</h3>
+            <ol className="card-text">
+              <li>
+                Download the printer's official app from your device's app store.
+              </li>
+              <li>
+                Open the app and tap the plus sign to add a printer.
+              </li>
+              <li>
+                The app will search for available printers on your network. Select
+                your printer when it appears.
+              </li>
+              <li>
+                If prompted, enter any required PIN displayed on the printer's
+                control panel.
+              </li>
+              <li>
+                Once connected, try printing a photo or document from your phone
+                to test the connection.
+              </li>
+            </ol>
+            <img
+              src={img11}
+              alt="Connecting printer to smartphone"
+              className="img-fluid mb-3"
+            />
           </div>
-
-          <div className="alert alert-warning" role="alert">
-            <h4 className="alert-heading">Disclaimer</h4>
-            <p className="mb-0">
-              I am an independent printer reseller and not an official
-              representative of HP or any other printer brand. The
-              troubleshooting steps and advice provided here are based on
-              personal experience and general knowledge. For official support or
-              inquiries, please contact HP directly. Always refer to your HP
-              printer's user manual for the most accurate and up-to-date
-              information.
-            </p>
+        </div>
+  
+        <div className="card mb-4">
+          <div className="card-body">
+            <h2 className="card-title h4">
+              <FontAwesomeIcon icon={faTint} className="me-2 text-danger" />
+              Ink Management Tips
+            </h2>
+            <ul className="card-text">
+              <li>
+                Always use genuine ink cartridges designed for your printer model
+                to ensure the best print quality and reliability.
+              </li>
+              <li>
+                Store spare ink cartridges in their original sealed packages in a
+                cool, dry place. Avoid direct sunlight and extreme temperatures.
+              </li>
+              <li>
+                When installing a new cartridge, gently shake it horizontally for
+                about 10 seconds to ensure even ink distribution.
+              </li>
+              <li>
+                If you don't print often, run a cleaning cycle every few weeks.
+                This can usually be done through the printer's maintenance menu.
+              </li>
+              <li>
+                For everyday documents, use the draft or economy mode in your print
+                settings to conserve ink. Reserve high-quality settings for important
+                documents or photos.
+              </li>
+            </ul>
+            <img
+              src={img12}
+              alt="Ink cartridge management"
+              className="img-fluid mb-3"
+            />
           </div>
+        </div>
+  
+        <div className="card mb-4">
+          <div className="card-body">
+            <h2 className="card-title h4">
+              <FontAwesomeIcon
+                icon={faPaperPlane}
+                className="me-2 text-warning"
+              />
+              Optimizing Print Quality
+            </h2>
+            <ol className="card-text">
+              <li>
+                In your print dialog, always select the correct paper type that
+                matches what you've loaded in the printer. This ensures the right
+                amount of ink is used.
+              </li>
+              <li>
+                Regularly align your print heads. This can usually be done through
+                the printer's maintenance menu.
+              </li>
+              <li>
+                If you notice streaking or missing colors, clean the print heads
+                using the printer's built-in cleaning function.
+              </li>
+              <li>
+                For photos or important documents, use high-quality photo paper or
+                premium presentation paper for best results.
+              </li>
+              <li>
+                Adjust color settings in your printer properties for specific needs.
+                Many printers offer preset options for different types of documents.
+              </li>
+            </ol>
+            <img
+              src={img13}
+              alt="Optimizing print quality"
+              className="img-fluid mb-3"
+            />
+          </div>
+        </div>
+  
+        <div className="alert alert-warning" role="alert">
+          <h4 className="alert-heading">Disclaimer</h4>
+          <p className="mb-0">
+            Activto Printer is an independent seller and is not affiliated
+            with any major printer brands. The troubleshooting tips provided on our
+            website are for informational purposes only and do not constitute official
+            support. For technical assistance, please refer to the official support
+            website of your printer manufacturer. We make no guarantees regarding the
+            accuracy of the information provided and are not liable for any damages
+            arising from the use of our products or services. Please retain your proof
+            of purchase for warranty claims.
+          </p>
         </div>
       </div>
     </div>
+  </div>
+  
   );
 };
 

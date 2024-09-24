@@ -22,10 +22,7 @@ const GDPRCompliance = () => {
             1. INTRODUCTION
           </h2>
           <p className="text-sm text-gray-700">
-            At Activto Printer, we are committed to ensuring the privacy and
-            protection of your personal data. This GDPR Compliance page explains
-            how we collect, use, and protect your data in accordance with the
-            General Data Protection Regulation (GDPR).
+            At Activto Printer, we are an independent printer seller providing general troubleshooting tips. We are not affiliated with any major printer brands. We are committed to ensuring the privacy and protection of your personal data. This GDPR Compliance page explains how we collect, use, and protect your data in accordance with the General Data Protection Regulation (GDPR).
           </p>
         </section>
 
@@ -35,9 +32,7 @@ const GDPRCompliance = () => {
             2. DATA COLLECTION
           </h2>
           <p className="text-sm text-gray-700">
-            We collect personal data that you voluntarily provide to us, such as
-            your name and contact details when you purchase products offline or
-            request support services.
+            We collect personal data that you voluntarily provide to us, such as your name and contact details when you interact with us for printer-related inquiries or when you access our troubleshooting tips.
           </p>
         </section>
 
@@ -47,9 +42,7 @@ const GDPRCompliance = () => {
             3. DATA USAGE
           </h2>
           <p className="text-sm text-gray-700">
-            The data we collect is used to manage offline transactions, provide
-            support, and ensure compliance with legal obligations. Your data is
-            handled securely and only for the purposes stated.
+            The data we collect is used to provide printer-related information, offer general troubleshooting tips, and ensure compliance with legal obligations. Your data is handled securely and only for the purposes stated. For complex issues, we recommend contacting the official support of your printer manufacturer.
           </p>
         </section>
 
@@ -59,9 +52,7 @@ const GDPRCompliance = () => {
             4. YOUR RIGHTS
           </h2>
           <p className="text-sm text-gray-700">
-            Under GDPR, you have the right to access, correct, or delete your
-            personal data. You also have the right to restrict or object to
-            certain processing activities and to data portability.
+            Under GDPR, you have the right to access, correct, or delete your personal data. You also have the right to restrict or object to certain processing activities and to data portability.
           </p>
         </section>
 
@@ -71,8 +62,7 @@ const GDPRCompliance = () => {
             5. CONTACT US
           </h2>
           <p className="text-sm text-gray-700">
-            If you have any questions or concerns regarding our GDPR compliance
-            or your personal data, please contact us:
+            If you have any questions or concerns regarding our GDPR compliance, your personal data, or our services as an independent printer seller, please contact us:
           </p>
           <address className="mt-4 text-sm text-gray-700">
             <strong>Activto Printer</strong>

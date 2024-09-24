@@ -3,9 +3,11 @@ import { Footer, Navbar } from "../components";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { addCart, delCart } from "../redux/action";
+import { useNavigate } from "react-router-dom";
 
 const Checkout = () => {
   const state = useSelector((state) => state.handleCart);
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const [isProcessing, setIsProcessing] = useState(false);
   const [orderPlaced, setOrderPlaced] = useState(false);
@@ -1216,14 +1218,14 @@ const Checkout = () => {
       event.preventDefault();
       setIsProcessing(true);
       setErrorMessage("");
-
+    
+      // Redirect to registration page
       setTimeout(() => {
-        setErrorMessage(
-          "We're sorry, but there was an issue processing your order. Please try again later."
-        );
         setIsProcessing(false);
+        navigate('/register');
       }, 2000);
     };
+    
 
     const applyCoupon = () => {
       const validCoupons = {
@@ -1243,7 +1245,6 @@ const Checkout = () => {
 
     return (
       <>
-      
         <div className="container py-5">
           <div className="row">
             <div className="col-md-4 order-md-2 mb-4">
@@ -1446,72 +1447,12 @@ const Checkout = () => {
                 </div>
 
                 <hr className="mb-4" />
-
-                <h4 className="mb-3">Payment</h4>
-
-                <div className="row">
-                  <div className="col-md-6 mb-3">
-                    <label htmlFor="cc-name">Name on card</label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="cc-name"
-                      required
-                    />
-                    <small className="text-muted">
-                      Full name as displayed on card
-                    </small>
-                    <div className="invalid-feedback">
-                      Name on card is required
-                    </div>
-                  </div>
-                  <div className="col-md-6 mb-3">
-                    <label htmlFor="cc-number">Credit card number</label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="cc-number"
-                      required
-                    />
-                    <div className="invalid-feedback">
-                      Credit card number is required
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-3 mb-3">
-                    <label htmlFor="cc-expiration">Expiration</label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="cc-expiration"
-                      required
-                    />
-                    <div className="invalid-feedback">
-                      Expiration date required
-                    </div>
-                  </div>
-                  <div className="col-md-3 mb-3">
-                    <label htmlFor="cc-cvv">CVV</label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="cc-cvv"
-                      required
-                    />
-                    <div className="invalid-feedback">
-                      Security code required
-                    </div>
-                  </div>
-                </div>
-
-                <hr className="mb-4" />
                 <button
                   className="btn btn-primary btn-lg btn-block"
                   type="submit"
                   disabled={isProcessing}
                 >
-                  {isProcessing ? "Processing..." : "Place Order"}
+                  {isProcessing ? "Please Wait..." : "Continue"}
                 </button>
                 {errorMessage && (
                   <div className="alert alert-danger mt-3" role="alert">

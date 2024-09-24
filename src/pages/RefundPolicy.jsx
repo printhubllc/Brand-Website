@@ -1,22 +1,29 @@
 import React from "react";
-import { Navbar, SubNavBar, Footer } from "../components";
+import { Navbar, Footer } from "../components";
 
 const RefundPolicy = () => {
   return (
     <>
-      <Navbar /> 
-      {/* <SubNavBar />{" "} */}
+      <Navbar />
       <div
         className="refund-policy"
         style={{ margin: "0 20px", padding: "20px" }}
       >
         <h1>Activto Printer's Refund Guidelines</h1>
+        
+        <section style={{ marginTop: "20px" }}>
+          <p>
+            <strong>Important Note:</strong>
+            <br />
+            Activto Printer is an independent printer seller. We also provide general troubleshooting tips as a complementary service. We are not affiliated with any major printer brands. For complex issues, please visit the official support website of your printer manufacturer.
+          </p>
+        </section>
+
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Eligibility for Refunds:</strong>
             <br />
-            To qualify for a refund, please ensure the following criteria are
-            met:
+            To qualify for a refund on purchased printers, please ensure the following criteria are met:
           </p>
           <ul>
             <li>
@@ -33,6 +40,7 @@ const RefundPolicy = () => {
             </li>
           </ul>
         </section>
+
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Items Not Eligible for Refunds:</strong>
@@ -45,6 +53,7 @@ const RefundPolicy = () => {
             <li>Digital Goods (e.g., software, licenses)</li>
           </ul>
         </section>
+
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Steps to Request a Refund:</strong>
@@ -71,6 +80,7 @@ const RefundPolicy = () => {
             </li>
           </ol>
         </section>
+
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Processing Refunds:</strong>
@@ -80,6 +90,7 @@ const RefundPolicy = () => {
             for your bank to complete the refund process.
           </p>
         </section>
+
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Exchanges:</strong>
@@ -89,6 +100,7 @@ const RefundPolicy = () => {
             item.
           </p>
         </section>
+
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Defective or Incorrect Items:</strong>
@@ -100,12 +112,20 @@ const RefundPolicy = () => {
             charge.
           </p>
         </section>
+
+        <section style={{ marginTop: "20px" }}>
+          <p>
+            <strong>Troubleshooting Support:</strong>
+            <br />
+            As part of our service, we offer general troubleshooting tips for printers. However, this support is provided as-is and does not affect our refund policy for purchased products.
+          </p>
+        </section>
+
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Contact Information:</strong>
             <br />
-            For any questions or concerns regarding our refund policy, please
-            reach out to us:
+            For any questions or concerns regarding our refund policy, products, or general troubleshooting tips, please reach out to us:
           </p>
           <address>
             <strong>Activto Printer</strong>
@@ -120,7 +140,7 @@ const RefundPolicy = () => {
             <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>
           </address>
         </section>
-        Email: info@activtoprinter.com
+
         <section style={{ marginTop: "20px" }}>
           <p>
             <strong>Policy Updates:</strong>

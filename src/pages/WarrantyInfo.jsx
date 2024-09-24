@@ -12,10 +12,7 @@ const WarrantyInformation = () => {
           <Col className="text-center">
             <h1 className="display-4 mb-4">Warranty Information</h1>
             <p className="lead mb-5">
-              At Activto Printer, we stand behind the quality of our products.
-              Our warranty covers defects in materials and workmanship for a
-              specified period. Please review the details below to understand
-              our warranty policy for printers purchased offline.
+              At Activto Printer, we are committed to the quality of our products. Our warranty covers defects in materials and workmanship for a specified duration. Please review the details below to understand our warranty policy for printers purchased offline.
             </p>
           </Col>
         </Row>
@@ -28,10 +25,7 @@ const WarrantyInformation = () => {
                   Warranty Coverage
                 </Card.Title>
                 <Card.Text>
-                  Our warranty includes coverage for defects in material and
-                  workmanship for a period of one year from the date of
-                  purchase. This warranty does not cover damage caused by
-                  misuse, accidents, or unauthorized modifications.
+                  Our warranty includes coverage for defects in materials and workmanship for one year from the date of purchase. This warranty does not cover damage resulting from misuse, accidents, or unauthorized modifications.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -42,9 +36,7 @@ const WarrantyInformation = () => {
                   Warranty Period
                 </Card.Title>
                 <Card.Text>
-                  The warranty period begins on the date of purchase. Please
-                  retain your purchase receipt, as it will be required for any
-                  warranty claims.
+                  The warranty period starts on the date of purchase. Please keep your receipt, as it will be required for any warranty claims.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -55,10 +47,7 @@ const WarrantyInformation = () => {
                   Claiming a Warranty
                 </Card.Title>
                 <Card.Text>
-                  To make a warranty claim, please contact our customer support
-                  team with your product details and proof of purchase. Our team
-                  will guide you through the process of obtaining repair or
-                  replacement based on the warranty terms for offline purchases.
+                  To make a warranty claim, please reach out to our customer support team with your product details and proof of purchase. Our team will assist you in obtaining repairs or replacements in line with the warranty terms for offline purchases.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -67,12 +56,14 @@ const WarrantyInformation = () => {
         <Row className="mt-5">
           <Col className="text-center">
             <p>
-              For further information or to initiate a warranty claim, please
-              contact us at{" "}
+              For additional information or to initiate a warranty claim, please contact us at{" "}
               <a href="mailto:support@rapidhub.com" className="text-primary">
                 support@rapidhub.com
               </a>
               .
+            </p>
+            <p className="mt-4">
+              As an independent seller, we also provide troubleshooting tips to assist with common printer issues. For more complex problems, we recommend visiting the official support website of your printer's manufacturer.
             </p>
           </Col>
         </Row>

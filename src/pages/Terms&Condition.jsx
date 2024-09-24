@@ -8,54 +8,54 @@ const TermsAndConditions = () => {
       <div className="container mx-auto px-4 py-6">
         <h1 className="text-xl font-bold mb-4 text-center">WELCOME TO ACTIVTO PRINTER!</h1>
         <p className="text-sm text-gray-700 mb-4">
-          By using our website, rapidhub.online, you agree to the following terms and conditions. Please review them carefully. Your continued use of our Site signifies your acceptance of these terms.
+          By using our website, rapidhub.online, you agree to comply with the following terms and conditions. We encourage you to read them thoroughly. Your continued use of our site indicates your acceptance of these terms.
         </p>
 
         <section className="mb-6">
           <p className="text-sm text-gray-700">
-            <strong>Understanding Our Terms:</strong>
+            <strong>Acceptance of Terms:</strong>
             <br />
-            By accessing our Site, you confirm that you have read and agree to our Terms and our Privacy Policy. If you do not agree, please do not use our Site.
+            By accessing our site, you acknowledge that you have read and understood our Terms and Privacy Policy. If you do not agree with these terms, we ask that you refrain from using our site. Please note that Activto Printer operates independently and is not affiliated with any major printer brands.
           </p>
         </section>
 
         <section className="mb-6">
           <p className="text-sm text-gray-700">
-            <strong>Modifications to Terms:</strong>
+            <strong>Changes to Terms:</strong>
             <br />
-            We may update these Terms periodically. Changes will be posted on our Site, and your continued use after such updates will constitute acceptance of the new Terms.
+            We reserve the right to update these Terms from time to time. Any changes will be reflected on our site, and your ongoing use of the site will signify your acceptance of the updated Terms.
           </p>
         </section>
 
         <section className="mb-6">
           <p className="text-sm text-gray-700">
-            <strong>Services Provided:</strong>
+            <strong>Services Offered:</strong>
             <br />
-            Activto Printer focuses on offline sales of printers and does not offer online purchases or delivery services. Any troubleshooting tips provided on our Site are for general informational purposes only.
+            At Activto Printer, we specialize in the independent sale of printers and now provide options for online purchases. The troubleshooting tips available on our site are based on our own knowledge and experience. For more intricate issues, we recommend visiting the official support page of your printer's manufacturer.
           </p>
         </section>
 
         <section className="mb-6">
           <p className="text-sm text-gray-700">
-            <strong>Information Accuracy:</strong>
+            <strong>Accuracy of Information:</strong>
             <br />
-            We strive to ensure the accuracy of the information on our Site, but we cannot guarantee that all details are error-free. We reserve the right to modify or remove content without notice.
+            We make every effort to ensure the information on our site is accurate. However, we cannot guarantee that all content is free from errors. We maintain the right to change or remove information at any time without prior notice.
           </p>
         </section>
 
         <section className="mb-6">
           <p className="text-sm text-gray-700">
-            <strong>User Responsibilities:</strong>
+            <strong>User Obligations:</strong>
             <br />
-            You agree not to engage in unlawful activities or misuse our Site. You are responsible for any content you submit and grant us a license to use it.
+            You agree to refrain from any unlawful activities and misuse of our site. You are accountable for the content you provide and grant us the rights to utilize it.
           </p>
         </section>
 
         <section className="mb-6">
           <p className="text-sm text-gray-700">
-            <strong>Liability Limitation:</strong>
+            <strong>Limitation of Liability:</strong>
             <br />
-            Our Site and content are provided “as-is” without any warranties. We are not liable for any indirect or consequential damages arising from your use of our Site or services.
+            Our site and its content are offered on an "as-is" basis without any warranties. We are not responsible for any indirect or consequential damages resulting from your use of our site or services.
           </p>
         </section>
 
@@ -63,7 +63,7 @@ const TermsAndConditions = () => {
           <p className="text-sm text-gray-700">
             <strong>Indemnification:</strong>
             <br />
-            You agree to indemnify Activto Printer and its affiliates against any claims or damages arising from your use of the Site or breach of these Terms.
+            You agree to indemnify Activto Printer and its affiliates from any claims or damages that arise from your use of our site or your violation of these Terms.
           </p>
         </section>
 
@@ -71,15 +71,15 @@ const TermsAndConditions = () => {
           <p className="text-sm text-gray-700">
             <strong>Governing Law:</strong>
             <br />
-            These Terms are governed by the laws of Florida. Any disputes will be resolved in the courts located in Miami-Dade County, Florida.
+            These Terms are governed by the laws of Florida. Any disputes arising under these Terms will be resolved in the courts of Miami-Dade County, Florida.
           </p>
         </section>
 
         <section className="mb-6">
           <p className="text-sm text-gray-700">
-            <strong>Contact Us:</strong>
+            <strong>Contact Information:</strong>
             <br />
-            For any questions or concerns about these Terms, please reach out to us at:
+            If you have any questions or concerns regarding these Terms, please reach out to us:
           </p>
           <address className="mt-4 text-sm text-gray-700">
             <strong>Activto Printer</strong>

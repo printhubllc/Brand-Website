@@ -80,20 +80,20 @@ const Footer = () => {
             <h5 className="text-uppercase mb-3">Policies</h5>
             <ul className="list-unstyled">
               <li>
-                {/* <Link
+                <Link
                   to="/shipping-policy"
                   className="text-light text-decoration-none"
                 >
                   Shipping Policy
-                </Link> */}
+                </Link>
               </li>
               <li>
-                {/* <Link
+                <Link
                   to="/refund-policy"
                   className="text-light text-decoration-none"
                 >
                   Refund Policy
-                </Link> */}
+                </Link>
               </li>
               <li>
                 <Link

@@ -19,6 +19,18 @@ const CookiesPolicy = () => {
         <section className="mb-6">
           <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
             <span className="font-bold" style={{ fontWeight: 700 }}>
+              Important Note:{" "}
+            </span>
+            Activto Printer is an independent printer seller. We also provide
+            general troubleshooting tips as a complementary service. We are not
+            affiliated with any major printer brands. For complex issues, please
+            visit the official support website of your printer manufacturer.
+          </p>
+        </section>
+
+        <section className="mb-6">
+          <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
+            <span className="font-bold" style={{ fontWeight: 700 }}>
               1. What Are Cookies?{" "}
             </span>
             Cookies are small text files placed on your device (computer,
@@ -66,10 +78,10 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               3. How We Use Cookies:{" "}
             </span>
-            We use cookies to enhance user experience and to improve the
-            usability of the site. Since we do not offer online purchase options
-            and only provide troubleshooting tips, cookies are mainly used for
-            website navigation and performance analytics.
+            As an independent printer seller, we use cookies to enhance user
+            experience and to improve the usability of our site. Cookies are used
+            for website navigation, performance analytics, and to help us deliver
+            better product information and support.
           </p>
         </section>
 
@@ -78,9 +90,10 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               4. Third-Party Cookies:{" "}
             </span>
-            We do not use third-party cookies for advertising. However, we may
-            use cookies from third-party services to monitor website performance
-            and analyze user interaction.
+            We do not use third-party cookies for advertising or affiliate
+            marketing. However, we may use cookies from third-party services to
+            monitor website performance and analyze user interaction to improve
+            our product offerings and content.
           </p>
         </section>
 
@@ -111,8 +124,8 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               7. Contact Us:{" "}
             </span>
-            If you have any questions regarding our use of cookies or this
-            policy, please contact us:
+            If you have any questions regarding our use of cookies, this policy,
+            or our independent printer sales and services, please contact us:
           </p>
           <address className="mt-4 text-base text-gray-700">
             <strong>Activto Printer</strong>

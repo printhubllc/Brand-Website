@@ -1,20 +1,20 @@
 import React from "react";
-import { Navbar, SubNavBar, Footer } from "../components";
+import { Navbar, Footer } from "../components";
 
 const ContactUs = () => {
   return (
     <>
       <Navbar />
-      {/* <SubNavBar /> */}
       <div className="contact-us" style={{ margin: "0 20px", padding: "20px" }}>
         <h2 className="text-xl font-semibold">
-          Get in Touch
+          Get in Touch with Activto Printer
         </h2>
         <p className="text-sm text-gray-700">
           We are an independent printer seller, offering a wide range of printers
-          and occasional troubleshooting tips. While we are not an authorized
-          partner of any specific brand, we take pride in providing reliable
-          products and services through our offline markets.
+          from various brands. As an independent seller, we are not 
+          affiliated with or an authorized partner of any specific brand. We take 
+          pride in providing reliable products and services through our offline markets 
+          and online presence, along with offering general troubleshooting tips.
         </p>
 
         <section style={{ marginTop: "20px" }}>
@@ -58,11 +58,12 @@ const ContactUs = () => {
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h3 className="text-lg font-medium">Support and Assistance</h3>
+          <h3 className="text-lg font-medium">Independent Printer Sales and Support</h3>
           <p className="text-sm text-gray-600">
-            For any questions or troubleshooting tips, feel free to reach out. 
-            Though we don’t provide official technical support, we are happy to
-            offer general guidance and recommendations to help you with your printers.
+            As an independent seller, we offer a variety of printers and provide general guidance 
+            to help you with your printer selection and basic troubleshooting. For complex issues 
+            or brand-specific problems, we recommend contacting the official support channels of 
+            your printer's manufacturer.
           </p>
         </section>
 
@@ -125,7 +126,8 @@ const ContactUs = () => {
         </section>
 
         <p className="text-sm text-gray-700" style={{ marginTop: "20px" }}>
-          We appreciate your interest and look forward to assisting you!
+          We appreciate your interest in Activto Printer and look forward to assisting you 
+          with our independent expertise in printer sales and basic troubleshooting tips!
         </p>
       </div>
       <Footer />

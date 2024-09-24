@@ -14,9 +14,12 @@ const PrivacyPolicy = () => {
         <section style={{ marginTop: "20px" }}>
           <p>
             At <strong>Activto Printer</strong>, we are committed to protecting
-            your privacy. This Privacy Policy explains how we collect, use, and
-            safeguard your personal information when you register our website. By using our website, you
-            agree to the practices described in this policy.
+            your privacy. As an independent printer seller, we also provide general 
+            troubleshooting tips as a complementary service. We want to clarify that we 
+            are not affiliated with any major printer brands. This Privacy Policy explains 
+            how we collect, use, and safeguard your personal information when you use our 
+            website or interact with our services. By using our website, you agree to the 
+            practices described in this policy.
           </p>
         </section>
 
@@ -28,8 +31,8 @@ const PrivacyPolicy = () => {
           <ul>
             <li>
               <strong>Personal Information:</strong> Such as your name, email
-              address, and any information you provide when contacting us for
-              troubleshooting.
+              address, and any information you provide when contacting us about
+              our products or services.
             </li>
             <li>
               <strong>Technical Information:</strong> Includes details such as
@@ -46,8 +49,9 @@ const PrivacyPolicy = () => {
           <p>We use your information for the following purposes:</p>
           <ul>
             <li>
-              To provide troubleshooting tips and respond to your inquiries.
+              To provide information about our products and services, including general troubleshooting tips.
             </li>
+            <li>To respond to your inquiries about printers and related products.</li>
             <li>To improve the functionality of our website and services.</li>
             <li>To comply with legal obligations or resolve disputes.</li>
           </ul>
@@ -58,7 +62,7 @@ const PrivacyPolicy = () => {
             3. Sharing Your Information
           </h2>
           <p>
-            We do not share your personal information with third parties, except
+            As an independent seller, we do not share your personal information with printer manufacturers or other third parties, except
             in the following cases:
           </p>
           <ul>
@@ -121,11 +125,23 @@ const PrivacyPolicy = () => {
 
         <section style={{ marginTop: "20px" }}>
           <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>
-            8. Contact Us
+            8. Disclaimer
           </h2>
           <p>
-            If you have any questions about this Privacy Policy or how we handle
-            your personal information, please contact us at:
+            At Activto Printer, we are an independent printer seller providing general 
+            troubleshooting tips as a complementary service. We are not affiliated 
+            with any major printer brands. For complex issues, please visit the official 
+            support website of your printer manufacturer.
+          </p>
+        </section>
+
+        <section style={{ marginTop: "20px" }}>
+          <h2 style={{ fontSize: "0.875rem", fontWeight: "bold" }}>
+            9. Contact Us
+          </h2>
+          <p>
+            If you have any questions about this Privacy Policy, our products, or our services, 
+            please contact us at:
           </p>
           <address>
             <strong>Activto Printer</strong>

@@ -1,22 +1,26 @@
 import React from "react";
-import { Navbar, SubNavBar, Footer } from "../components";
+import { Navbar, Footer } from "../components";
 
 const ShippingPolicy = () => {
   return (
     <>
-      <Navbar /> 
-      {/* <SubNavBar /> */}
+      <Navbar />
       <div
         className="shipping-policy"
         style={{ margin: "0 20px", padding: "20px" }}
       >
         <h1>Welcome to Activto Printer's Shipping Information</h1>
         <p>
-          At Activto Printer, we aim to make your shopping experience smooth and
-          straightforward. This guide explains our shipping practices for orders
-          placed through rapidhub.online. By making a purchase, you agree to the
-          following shipping terms.
+          At Activto Printer, we are an independent printer seller providing quality products and complementary troubleshooting tips. We are not affiliated with any major printer brands. This guide explains our shipping practices for orders placed through our website. By making a purchase, you agree to the following shipping terms.
         </p>
+
+        <section style={{ marginTop: "20px" }}>
+          <p>
+            <strong>Important Note:</strong>
+            <br />
+            While we offer general troubleshooting tips, for complex issues, please visit the official support website of your printer manufacturer.
+          </p>
+        </section>
 
         <section style={{ marginTop: "20px" }}>
           <p>
@@ -93,10 +97,17 @@ const ShippingPolicy = () => {
 
         <section style={{ marginTop: "20px" }}>
           <p>
+            <strong>Troubleshooting Support:</strong>
+            <br />
+            As an independent seller, we offer general troubleshooting tips for printers. However, this support is provided as a complementary service and does not affect our shipping policy for purchased products.
+          </p>
+        </section>
+
+        <section style={{ marginTop: "20px" }}>
+          <p>
             <strong>Get in Touch:</strong>
             <br />
-            If you have any questions about our shipping policy, don’t hesitate
-            to contact us:
+            If you have any questions about our shipping policy, products, or general troubleshooting tips, don't hesitate to contact us:
           </p>
           <address>
             <strong>Activto Printer</strong>
