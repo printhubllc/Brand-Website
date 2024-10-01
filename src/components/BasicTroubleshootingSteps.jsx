@@ -379,9 +379,7 @@ const PrinterSetupGuide = () => {
 
   return (
     <div className="container my-5">
-      <h1 className="display-4 mb-4 text-center">
-        Comprehensive Printer Setup and Troubleshooting Guide
-      </h1>
+      <h1 className="display-4 mb-4 text-center">Setup Guide</h1>
 
       <div className="row">
         <div className="col-lg-8 mx-auto">
