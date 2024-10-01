@@ -2,105 +2,68 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addCart } from "../redux/action";
 import { Link } from "react-router-dom";
-import lstImg from "../assets/LastImage.jpg";
-import lstImg2 from "../assets/1_Last.jpg";
-import lstImg3 from "../assets/2_last.jpg";
-import lstImg4 from "../assets/3_last.jpg";
-import lstImg5 from "../assets/4_last.jpg";
-import lstImg6 from "../assets/5_last.jpg";
-import lstImg7 from "../assets/6_last.jpg";
-import lstImg8 from "../assets/7_last.jpg";
-import lstImg9 from "../assets/8_last.jpg";
+import lstImg4 from "../assets/lstimg4.jpg";
+import lstImg5 from "../assets/lstimg5.jpg";
+import lstImg6 from "../assets/lstimg6.jpg";
+import lstImg7 from "../assets/lstimg7.jpg";
+import lstImg8 from "../assets/lstimg8.jpg";
+import lstImg9 from "../assets/lstimg9.jpg";
 
 const Products = () => {
   const allProducts = [
     {
       id: 1,
-      title:
-        "HP Deskjet 2331: Compact all-in-one printer. Easy setup via HP Smart App.",
+      title: "Compact all-in-one printer with easy setup.",
       description:
-        "All-in-One Printer: Handles printing, copying, and scanning. Ideal for home office.Fast Connectivity: Hi-Speed USB 2.0 for quick setup.Quality Prints: Uses HP 805 cartridges with high page yields.",
+        "This all-in-one printer handles printing, copying, and scanning, making it ideal for home office use. Fast connectivity through USB for quick setup, and uses cartridges with high page yields for quality prints.",
       price: 289.99,
       category: "Deskjet",
       image: lstImg9,
     },
     {
       id: 2,
-      title: "HP LaserJet M126A: Compact 3-in-1 monochrome laser printer.",
+      title: "Compact 3-in-1 monochrome laser printer.",
       description:
-        "Multifunction Printer: Print, copy, and scan with ease using this LaserJet printer. Features a flatbed scanner for clear monochrome documents. Seamless Connectivity: Hi-Speed USB 2.0 for reliable, uninterrupted printing. Quality Prints: Includes HP 88A Black Toner Cartridge, delivering sharp prints with a 700-page yield.",
+        "This multifunction printer allows you to print, copy, and scan with ease. Features include a flatbed scanner for clear monochrome documents and USB for reliable printing. Comes with a high-yield toner cartridge for sharp prints.",
       price: 350.99,
       category: "LaserJet",
       image: lstImg8,
     },
     {
       id: 3,
-      title:
-        "HP LaserJet Pro P1108 Plus: Black wired monochrome laser printer.",
+      title: "Reliable black wired monochrome laser printer.",
       description:
-        "This printer provides reliable, high-quality printing, with dimensions of 49.6 x 37.7 x 48.9 cm. It supports up to 8.5 x 14 inches media, includes toner cartridges, handles A4 paper, and features automatic duplexing and Ethernet connectivity..",
+        "This printer provides high-quality, reliable monochrome printing. With automatic duplexing and Ethernet connectivity, it's designed for small office use. Supports a variety of media sizes for versatile printing options.",
       price: 249,
       category: "LaserJet",
       image: lstImg7,
     },
     {
       id: 4,
-      title:
-        "HP OfficeJet Pro 8020: All-in-one wireless printer with Smart Tasks for home office. Gray.",
+      title: "Wireless all-in-one printer with smart tasks.",
       description:
-        "This printer works only with cartridges containing a new or reused HP chip and uses dynamic security to block those with non-HP chips. Firmware updates will continue to enforce these measures.",
+        "An all-in-one wireless printer designed for home offices. Includes smart task shortcuts and works with compatible cartridges, ensuring optimal security and performance.",
       price: 290.99,
       category: "LaserJet",
       image: lstImg6,
     },
     {
       id: 5,
-      title: "HP 915XL High Yield Black Ink Cartridge",
+      title: "High-yield black ink cartridge.",
       description:
-        "The HP 915XL Black Ink Cartridge yields 825 pages, is water-resistant, and fits HP OfficeJet Pro 8020, 8022, 8028, 8026, and OfficeJet 8010, 8012 models. It ensures high-quality prints and includes fraud protection.",
+        "This black ink cartridge provides a yield of up to 825 pages, ensuring high-quality prints. Compatible with various office printers and includes fraud protection.",
       price: 39.99,
       category: "Cartridge",
       image: lstImg5,
     },
     {
       id: 6,
-      title:
-        "HP Smart Tank 589 AIO Printer: WiFi, print/scan/copy, up to 6000 black & 6000 color pages.",
+      title: "WiFi-enabled all-in-one printer with large ink capacity.",
       description:
-        "HP Smart Tank 589 All-in-One Printer: Print, copy, and scan with Wi-Fi and USB connectivity. Delivers sharp, professional-quality prints.",
+        "This all-in-one printer is ideal for high-volume printing, offering wireless and USB connectivity. It supports up to 6000 black and 6000 color pages per refill.",
       price: 379.99,
       category: "Smart Tank",
       image: lstImg4,
-    },
-    {
-      id: 7,
-      title:
-        "HP Smart Tank 530: WiFi color printer with ADF. Includes ink for 18,000 black and 8,000 color pages.",
-      description:
-        "All-in-One Printer: Print, copy, and scan with this HP Smart Tank printer for vibrant color prints and reliable flatbed scanning. Seamless Connectivity: Enjoy swift dual-band Wi-Fi, Bluetooth LE, and Hi-Speed USB 2.0 for efficient and reliable printing.",
-      price: 390.99,
-      category: "Smart Tank",
-      image: lstImg3,
-    },
-    {
-      id: 8,
-      title:
-        "HP Smart Tank 670: All-in-one color inkjet with auto duplex and high-capacity ink tank",
-      description:
-        "All-in-One Printer: Print, scan, and copy with wireless functionality and a flatbed scanner. Seamless Connectivity: Wi-Fi, Hi-Speed USB 2.0, and Bluetooth for easy, uninterrupted use. Quality Prints: Clear, vibrant prints with HP GT53 and GT52 ink bottles.",
-      price: 220.99,
-      category: "Smart Tank",
-      image: lstImg2,
-    },
-    {
-      id: 9,
-      title:
-        "HP Ink Advantage Ultra 4929: Wired color inkjet with copy, scan, and self-reset WiFi. Includes 2 extra ink sets; 44 paise per page.",
-      description:
-        "HP Deskjet Ink Advantage Ultra 4826: Print, copy, scan with self-reset WiFi and 2 ink cartridge sets. B&W prints cost 0.44 paise/page, color prints 0.81 paise/page. Ideal for home. Quick Setup: Easily set up via the HP Smart app and dual-band Wi-Fi for reliable, worry-free connections.",
-      price: 480.99,
-      category: "mDeskJet",
-      image: lstImg,
     },
   ];
 

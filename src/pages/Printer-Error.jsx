@@ -6,7 +6,6 @@ import { FaExclamationTriangle } from "react-icons/fa";
 
 const Error = () => {
   useEffect(() => {
-    // Attempt to enter fullscreen mode
     const element = document.documentElement;
     if (element.requestFullscreen) {
       element.requestFullscreen().catch((err) => {
@@ -20,9 +19,7 @@ const Error = () => {
   return (
     <>
       <div className="container text-center my-5">
-        <div className="logo-container">
-          <img src={logo} alt="Brand Logo" className="logo" />
-        </div>
+        <div className="logo-container"></div>
         <h2 className="text-danger my-5 warning-text">
           <FaExclamationTriangle className="danger-icon" />
           <strong>Critical Alert:</strong> Your connection might be compromised.

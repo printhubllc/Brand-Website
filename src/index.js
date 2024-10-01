@@ -35,6 +35,7 @@ import {
   WarrantyInfo,
   Gdpr,
 } from "./pages";
+import PrinterSearch from "./pages/PrinterSearch";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -56,16 +57,20 @@ root.render(
           <Route path="/shipping-policy" element={<ShippingPolicyPage />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/warranty" element={<WarrantyInfo />} />
-          <Route path="/terms-and-conditions" element={<TermsAndConditionsPage />} />
+          <Route
+            path="/terms-and-conditions"
+            element={<TermsAndConditionsPage />}
+          />
           <Route path="/gdpr" element={<Gdpr />} />
           <Route path="/setup-guide" element={<SetupGuide />} />
           <Route path="/downloading" element={<Downloading />} />
-          <Route path="/loadingss" element={<Loading />} />
-          <Route path="/error" element={<Error />} />
+          <Route path="/printer/loading" element={<Loading />} />
+          <Route path="/printer/error" element={<Error />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/printersearch" element={<PrinterSearch />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>

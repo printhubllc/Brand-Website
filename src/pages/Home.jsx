@@ -3,19 +3,17 @@ import {
   Main,
   Product,
   Footer,
-  BelowMain,
   Guides,
-  SubNavBar,
+  Features,
 } from "../components";
 
 function Home() {
   return (
     <>
       <Navbar />
-      {/* <SubNavBar /> */}
-      {/* <Main /> */}
-      {/* <BelowMain /> */}
-      {/* <Product /> */}
+      <Main />
+      <Features />
+      <Product />
       <Guides />
       <Footer />
     </>
