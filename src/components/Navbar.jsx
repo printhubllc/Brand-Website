@@ -44,7 +44,7 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <NavLink
                 className="nav-link"
                 to="/product"
@@ -52,7 +52,7 @@ const Navbar = () => {
               >
                 Shop
               </NavLink>
-            </li> */}
+            </li>
             <li className="nav-item">
               <NavLink
                 className="nav-link"
