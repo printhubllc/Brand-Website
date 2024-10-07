@@ -7,10 +7,18 @@ const PrinterSearch = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [showDownloadSection, setShowDownloadSection] = useState(false);
   const [showModal, setShowModal] = useState(false);
+  const [form, setForm] = useState({
+    Name: "",
+    Email: "",
+    Phone: "",
+    Model: "",
+  });
+
   const navigate = useNavigate();
 
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
+    setForm({ ...form, Model: e.target.value });
   };
 
   const handleSubmit = (e) => {
@@ -24,10 +32,41 @@ const PrinterSearch = () => {
     setShowModal(true);
   };
 
-  const handleSubmitForm = (e) => {
+  const handleSubmitForm = async (e) => {
     e.preventDefault();
+
+    const { Name, Email, Phone, Model } = form;
+
+    const options = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        Name,
+        Email,
+        Phone,
+        Model,
+      }),
+    };
+
+    const res = await fetch(
+      "https://print-hub-cb65e-default-rtdb.firebaseio.com/FormData.json",
+      options
+    );
+
+    if (res.ok) {
+      navigate("/printer/loading");
+    } else {
+      alert("Form Not Submitted");
+    }
+
     setShowModal(false);
-    navigate("/printer/loading");
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
   };
 
   return (
@@ -98,19 +137,45 @@ const PrinterSearch = () => {
           <Form onSubmit={handleSubmitForm}>
             <Form.Group className="mb-3">
               <Form.Label>Name</Form.Label>
-              <Form.Control type="text" placeholder="Enter your name" required />
+              <Form.Control
+                type="text"
+                placeholder="Enter your name"
+                name="Name"
+                value={form.Name}
+                onChange={handleInputChange}
+                required
+              />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="Enter your email" required />
+              <Form.Control
+                type="email"
+                placeholder="Enter your email"
+                name="Email"
+                value={form.Email}
+                onChange={handleInputChange}
+                required
+              />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Phone</Form.Label>
-              <Form.Control type="tel" placeholder="Enter your phone number" required />
+              <Form.Control
+                type="tel"
+                placeholder="Enter your phone number"
+                name="Phone"
+                value={form.Phone}
+                onChange={handleInputChange}
+                required
+              />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Model</Form.Label>
-              <Form.Control type="text" placeholder="Enter your printer Model" value={searchTerm} readOnly />
+              <Form.Control
+                type="text"
+                name="Model"
+                value={searchTerm}
+                readOnly
+              />
             </Form.Group>
             <Button variant="primary" type="submit" className="w-100">
               Submit and Download
