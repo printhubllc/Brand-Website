@@ -14,8 +14,8 @@ const PrivacyPolicy = () => {
         <section style={{ marginTop: "20px" }}>
           <p>
             At <strong>Activto Printer</strong>, we are committed to protecting
-            your privacy. As an independent printer seller, we also provide general 
-            troubleshooting tips as a complementary service. We want to clarify that we 
+            your privacy. As an independent printer seller, we provide general 
+            troubleshooting tips as a complementary service. Please note that we 
             are not affiliated with any major printer brands. This Privacy Policy explains 
             how we collect, use, and safeguard your personal information when you use our 
             website or interact with our services. By using our website, you agree to the 
@@ -51,7 +51,7 @@ const PrivacyPolicy = () => {
             <li>
               To provide information about our products and services, including general troubleshooting tips.
             </li>
-            <li>To respond to your inquiries about printers and related products.</li>
+            <li>To respond to your inquiries regarding printers and related products.</li>
             <li>To improve the functionality of our website and services.</li>
             <li>To comply with legal obligations or resolve disputes.</li>
           </ul>
@@ -128,10 +128,10 @@ const PrivacyPolicy = () => {
             8. Disclaimer
           </h2>
           <p>
-            At Activto Printer, we are an independent printer seller providing general 
+            At Activto Printer, we operate independently and provide general 
             troubleshooting tips as a complementary service. We are not affiliated 
-            with any major printer brands. For complex issues, please visit the official 
-            support website of your printer manufacturer.
+            with any major printer brands. For brand-specific support, we recommend 
+            visiting the official support website of your printer manufacturer.
           </p>
         </section>
 
@@ -145,12 +145,6 @@ const PrivacyPolicy = () => {
           </p>
           <address>
             <strong>Activto Printer</strong>
-            {/* <br />
-            5678 Innovation Lane, Suite 300
-            <br />
-            San Jose, CA 95134
-            <br />
-            United States */}
             <br />
             Email:{" "}
             <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>

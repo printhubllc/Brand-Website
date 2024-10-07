@@ -27,54 +27,54 @@ const Product = () => {
   const allProducts = [
     {
       id: 1,
-      title: "All-in-One Compact Printer for Home Use",
+      title: "Compact All-in-One Printer for Versatile Use",
       description:
-        "This all-in-one printer supports printing, scanning, and copying functionalities, making it ideal for home or small office environments. Its compact design ensures easy setup, and it connects via USB for straightforward use.",
+        "This printer offers print, scan, and copy capabilities, making it an efficient solution for home or small business setups. The compact design allows for easy setup, and it connects via USB for fast, reliable use.",
       price: 289.99,
       category: "Deskjet",
       image: lstImg9,
     },
     {
       id: 2,
-      title: "Monochrome Laser Printer with Multi-Function Capabilities",
+      title: "Monochrome Laser Printer with Multi-Functionality",
       description:
-        "A high-performance monochrome laser printer with printing, copying, and scanning options. Designed for efficiency and reliability, this device is perfect for small offices needing sharp document prints.",
+        "A high-performance laser printer designed for productivity, offering print, copy, and scan functions. Ideal for small office environments where document quality and efficiency are priorities.",
       price: 350.99,
       category: "LaserJet",
       image: lstImg8,
     },
     {
       id: 3,
-      title: "Fast Monochrome Laser Printer for Efficient Printing",
+      title: "Fast Monochrome Laser Printer with Duplex Feature",
       description:
-        "This fast monochrome laser printer ensures sharp, high-quality prints with features such as automatic duplexing for efficient paper use. Ideal for both home and office environments requiring reliable printing performance.",
+        "This fast and reliable laser printer delivers sharp prints and offers automatic duplexing to save on paper. A great option for homes and offices needing efficient printing solutions.",
       price: 249,
       category: "LaserJet",
       image: lstImg7,
     },
     {
       id: 4,
-      title: "Wireless All-in-One Printer for Small Offices",
+      title: "Wireless All-in-One Printer for Modern Offices",
       description:
-        "A versatile all-in-one printer offering printing, scanning, and copying functionalities. Designed with wireless capabilities, it provides a seamless printing experience for small office setups.",
+        "A wireless all-in-one printer designed for small offices, offering print, scan, and copy functionalities. Its wireless capabilities allow for flexible setup and seamless integration.",
       price: 290.99,
       category: "LaserJet",
       image: lstImg6,
     },
     {
       id: 5,
-      title: "High Yield Ink Cartridge for Long-Lasting Prints",
+      title: "High Capacity Ink Cartridge for Extended Use",
       description:
-        "This high-yield ink cartridge supports up to 825 pages, providing reliable and sharp black ink output for large-volume printing needs. Ideal for offices with high print demand.",
+        "This high-capacity ink cartridge provides a long-lasting ink supply, making it ideal for heavy print jobs in home or office settings. Designed for sharp, clear prints with up to 825 pages per cartridge.",
       price: 39.99,
       category: "Cartridge",
       image: lstImg5,
     },
     {
       id: 6,
-      title: "All-in-One Ink Tank Printer with Wi-Fi",
+      title: "All-in-One Ink Tank Printer with Wireless Connectivity",
       description:
-        "An all-in-one printer with a large ink tank for efficient, high-volume printing. Its Wi-Fi connectivity and USB options provide flexibility for small businesses and home offices.",
+        "An all-in-one printer with an integrated ink tank for high-volume printing. With wireless and USB connectivity, it's perfect for small businesses or home offices needing versatile printing solutions.",
       price: 379.99,
       category: "Smart Tank",
       image: lstImg4,
@@ -104,7 +104,7 @@ const Product = () => {
 
   const addProduct = (product) => {
     dispatch(addCart(product));
-    toast.success("Product added to cart!", {
+    toast.success("Item added to cart!", {
       position: "top-right",
       autoClose: 2000,
       hideProgressBar: false,

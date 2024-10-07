@@ -5,7 +5,6 @@ const Products = () => {
   return (
     <>
       <Navbar />
-
       <Product />
       <Footer />
     </>

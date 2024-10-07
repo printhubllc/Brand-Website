@@ -30,7 +30,7 @@ const Main = () => {
 
   const iconStyle = {
     marginRight: "10px",
-    color: "#009dde", // Primary color for consistency
+    color: "#009dde",
   };
 
   return (
@@ -41,32 +41,32 @@ const Main = () => {
           <Row>
             <Col lg={8} className="mx-auto text-center">
               <h1 className="display-4 mb-4 font-weight-bold">
-                All Printer Setup
+                Printer Setup & Assistance
               </h1>
               <div className="bg-white text-dark p-4 rounded shadow-sm">
                 <ul className="list-unstyled text-left">
                   <li style={bulletPointStyle}>
                     <FontAwesomeIcon icon={faDesktop} style={iconStyle} />
-                    Set up your printer with your computer
+                    Connect Your Printer to Your Computer Easily
                   </li>
                   <li style={bulletPointStyle}>
                     <FontAwesomeIcon icon={faWifi} style={iconStyle} />
-                    Configure wireless printers
+                    Set Up Wireless Printing
                   </li>
                   <li style={bulletPointStyle}>
                     <FontAwesomeIcon
                       icon={faExclamationTriangle}
                       style={iconStyle}
                     />
-                    Resolve offline printer issues
+                    Resolve Printer Offline Status
                   </li>
                   <li style={bulletPointStyle}>
                     <FontAwesomeIcon icon={faDownload} style={iconStyle} />
-                    Update printer drivers
+                    Install the Latest Printer Drivers
                   </li>
                   <li style={bulletPointStyle}>
                     <FontAwesomeIcon icon={faCompactDisc} style={iconStyle} />
-                    Install printers without a CD
+                    Install Without a CD
                   </li>
                 </ul>
               </div>

@@ -43,10 +43,10 @@ const TermsAndConditions = () => {
             <strong>Services Offered:</strong>
             <br />
             At Activto Printer, we specialize in the independent sale of
-            printers and now provide options for online purchases. The
-            troubleshooting tips available on our site are based on our own
-            knowledge and experience. For more intricate issues, we recommend
-            visiting the official support page of your printer's manufacturer.
+            printers, providing options for online purchases. The troubleshooting
+            tips available on our site are based on our own knowledge and
+            experience. For brand-specific issues, we recommend consulting the
+            official support channels of your printer's manufacturer.
           </p>
         </section>
 
@@ -110,12 +110,6 @@ const TermsAndConditions = () => {
           </p>
           <address className="mt-4 text-sm text-gray-700">
             <strong>Activto Printer</strong>
-            {/* <br />
-            5678 Innovation Lane, Suite 300
-            <br />
-            San Jose, CA 95134
-            <br />
-            United States */}
             <br />
             Email:{" "}
             <a

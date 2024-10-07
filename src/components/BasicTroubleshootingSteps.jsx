@@ -55,15 +55,14 @@ const PrinterSetupGuide = () => {
                   Turn off the printer and unplug it for 60 seconds.
                 </strong>
                 <p>
-                  This helps reset the printer's internal system. Make sure to
-                  wait a full minute to allow all capacitors to discharge.
+                  This action resets the printer’s internal system. Wait a full
+                  minute to ensure a complete reset.
                 </p>
               </li>
               <li>
-                <strong>Plug the printer back in and turn it on.</strong>
+                <strong>Plug the printer back in and power it on.</strong>
                 <p>
-                  Reconnecting power allows the printer to restart its firmware,
-                  which may resolve temporary glitches.
+                  This restarts the firmware and may clear temporary errors.
                 </p>
               </li>
               <li>
@@ -71,25 +70,15 @@ const PrinterSetupGuide = () => {
                   Check for any error messages on the printer display.
                 </strong>
                 <p>
-                  Take note of any specific error codes or messages. Refer to
-                  the manual for troubleshooting steps related to those codes.
+                  If there are error codes or messages, refer to the printer's
+                  manual for guidance.
                 </p>
               </li>
               <li>
                 <strong>Ensure all cables are securely connected.</strong>
                 <p>
-                  Inspect both the power and data cables. Loose connections can
-                  cause communication failures.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  If the error persists, contact the manufacturer's support
-                  team.
-                </strong>
-                <p>
-                  Have your printer's details and error code ready for quicker
-                  assistance.
+                  Check that both power and data cables are firmly plugged in to
+                  prevent connection issues.
                 </p>
               </li>
             </ol>
@@ -103,41 +92,33 @@ const PrinterSetupGuide = () => {
             <ol>
               <li>
                 <strong>
-                  On the printer control panel, go to the Network settings.
+                  Navigate to the Network settings on the control panel.
                 </strong>
-                <p>
-                  Use the arrow keys to navigate through the settings menu until
-                  you find the Network option.
-                </p>
+                <p>Use the printer's menu to locate the network options.</p>
               </li>
               <li>
                 <strong>
                   Select "Wireless" and then "Wireless Setup Wizard".
                 </strong>
                 <p>
-                  This will guide you through connecting your printer to Wi-Fi.
+                  This will guide you through the process of connecting your
+                  printer to a Wi-Fi network.
                 </p>
               </li>
               <li>
-                <strong>Choose your Wi-Fi network from the list.</strong>
+                <strong>
+                  Select your Wi-Fi network from the available list.
+                </strong>
                 <p>
-                  Ensure you select the correct network, especially if you have
-                  multiple networks in your home or office.
+                  Make sure to choose the correct network, especially if there
+                  are multiple networks available.
                 </p>
               </li>
               <li>
-                <strong>Enter your Wi-Fi password when prompted.</strong>
+                <strong>Enter your Wi-Fi password accurately.</strong>
                 <p>
-                  Use the on-screen keyboard to enter the password accurately.
-                  Remember that passwords are case-sensitive.
-                </p>
-              </li>
-              <li>
-                <strong>Wait for the printer to connect to the network.</strong>
-                <p>
-                  This may take a few moments. A successful connection will
-                  typically be indicated by a confirmation message on the
-                  screen.
+                  Passwords are case-sensitive, so input it carefully using the
+                  on-screen keyboard.
                 </p>
               </li>
             </ol>
@@ -153,47 +134,36 @@ const PrinterSetupGuide = () => {
             <ol>
               <li>
                 <strong>
-                  Ensure your device and printer are on the same Wi-Fi network.
+                  Ensure both devices are connected to the same Wi-Fi network.
                 </strong>
                 <p>
-                  Verify that both devices are connected to the same network to
-                  facilitate communication.
+                  Double-check that your printer and device are on the same
+                  network to allow communication.
                 </p>
               </li>
               <li>
                 <strong>
-                  For laptops: Install the printer software from the
-                  manufacturer's website.
+                  For laptops: Install the printer software from the official
+                  website.
                 </strong>
                 <p>
-                  This software enables your laptop to recognize and communicate
-                  with the printer. Follow the installation instructions
-                  carefully.
+                  The installation will help your laptop communicate with the
+                  printer.
                 </p>
               </li>
               <li>
                 <strong>
-                  For smartphones: Download the printer app from your app store.
+                  For smartphones: Download the printer’s mobile app.
                 </strong>
                 <p>
-                  Search for the official app associated with your printer, and
-                  ensure you download the correct version for your device.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  Follow the on-screen instructions to add the printer.
-                </strong>
-                <p>
-                  The app will guide you through the process, which may include
-                  selecting the printer and confirming the connection.
+                  Find the printer's app in your app store and follow the setup
+                  instructions to add the printer.
                 </p>
               </li>
               <li>
                 <strong>Test the connection by printing a test page.</strong>
                 <p>
-                  This ensures that the setup was successful and that the
-                  printer is functioning correctly.
+                  Make sure everything is working by printing a test document.
                 </p>
               </li>
             </ol>
@@ -206,46 +176,22 @@ const PrinterSetupGuide = () => {
             <h4 className="alert-heading">Print Quality Issues</h4>
             <ol>
               <li>
-                <strong>
-                  Run a printer head cleaning cycle from the maintenance menu.
-                </strong>
+                <strong>Run a printer head cleaning cycle.</strong>
                 <p>
-                  This can help clear any blockages in the ink nozzles, which
-                  may improve print quality.
+                  This can clear clogged ink nozzles and improve print quality.
                 </p>
               </li>
               <li>
                 <strong>
-                  Align the print heads using the printer's alignment function.
+                  Align the print heads using the alignment function.
                 </strong>
-                <p>
-                  This ensures that the print heads are positioned correctly for
-                  optimal printing.
-                </p>
+                <p>Correct alignment ensures sharper prints.</p>
               </li>
               <li>
-                <strong>
-                  Check if you're using the correct paper type in the settings.
-                </strong>
+                <strong>Check that you’re using the correct paper type.</strong>
                 <p>
-                  Using the correct paper type can greatly affect print quality.
-                  Ensure the printer settings match the paper you are using.
-                </p>
-              </li>
-              <li>
-                <strong>Ensure you're using compatible ink cartridges.</strong>
-                <p>
-                  Using incompatible cartridges may not perform as well. Always
-                  opt for cartridges recommended by the printer manufacturer.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  If issues persist, consider replacing the ink cartridges.
-                </strong>
-                <p>
-                  Old or empty cartridges can lead to faded or incomplete
-                  prints. Installing new cartridges may resolve the problem.
+                  Adjust printer settings to match the paper being used for
+                  better results.
                 </p>
               </li>
             </ol>
@@ -259,47 +205,20 @@ const PrinterSetupGuide = () => {
             <ol>
               <li>
                 <strong>Turn off the printer and unplug it.</strong>
+                <p>This prevents any issues while addressing the jam.</p>
+              </li>
+              <li>
+                <strong>Carefully remove any jammed paper.</strong>
                 <p>
-                  This prevents any potential damage or further issues while you
-                  address the jam.
+                  Open access doors and gently remove the paper to avoid
+                  tearing.
                 </p>
               </li>
               <li>
                 <strong>
-                  Open all doors and carefully remove any visible jammed paper.
+                  Check for small pieces of paper inside the paper path.
                 </strong>
-                <p>
-                  Be gentle to avoid tearing the paper, which can leave behind
-                  pieces that might cause more jams.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  Check the paper path for any torn pieces of paper.
-                </strong>
-                <p>
-                  Even small bits of paper can lead to recurring jams, so make
-                  sure to clear everything out.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  Ensure the paper tray is not overfilled and paper is aligned
-                  correctly.
-                </strong>
-                <p>
-                  Overfilling can cause jams. Always follow the manufacturer's
-                  recommendations for loading paper.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  Plug in the printer, turn it on, and try printing again.
-                </strong>
-                <p>
-                  After resolving the jam, it's a good idea to print a test page
-                  to confirm everything is working properly.
-                </p>
+                <p>Even small pieces can cause repeated jams.</p>
               </li>
             </ol>
           </div>
@@ -308,51 +227,23 @@ const PrinterSetupGuide = () => {
       case "ink":
         return (
           <div className="alert alert-warning">
-            <h4 className="alert-heading">Ink Cartridge Problems</h4>
+            <h4 className="alert-heading">Ink Cartridge Issues</h4>
             <ol>
               <li>
-                <strong>
-                  Check if the ink cartridges are properly installed.
-                </strong>
+                <strong>Ensure cartridges are properly installed.</strong>
+                <p>Check that each cartridge is securely in place.</p>
+              </li>
+              <li>
+                <strong>Clean the cartridge contacts.</strong>
                 <p>
-                  Open the cartridge access door and ensure each cartridge is
-                  securely clicked into place.
+                  Use a clean cloth to wipe the contacts and remove any dust or
+                  ink buildup.
                 </p>
               </li>
               <li>
-                <strong>
-                  Clean the cartridge contacts with a lint-free cloth.
-                </strong>
+                <strong>Replace empty or faulty cartridges.</strong>
                 <p>
-                  Dust or ink buildup on the contacts can hinder communication
-                  between the cartridge and printer.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  Run a nozzle check to see if any colors are missing.
-                </strong>
-                <p>
-                  This test prints a pattern to identify any clogged nozzles
-                  that may require cleaning.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  Replace empty or faulty cartridges with new ones.
-                </strong>
-                <p>
-                  Always use cartridges recommended for your printer to avoid
-                  compatibility issues.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  Ensure you're using compatible cartridges for your printer.
-                </strong>
-                <p>
-                  Using non-compatible cartridges can lead to various printing
-                  issues, so always check the specifications.
+                  Install new cartridges if necessary for better performance.
                 </p>
               </li>
             </ol>
@@ -364,10 +255,8 @@ const PrinterSetupGuide = () => {
           <div className="alert alert-warning">
             <h4 className="alert-heading">Other Issues</h4>
             <p>
-              For other issues not listed here, please consult the printer's
-              manual or contact the manufacturer's support team for personalized
-              assistance. Be sure to provide details about your problem,
-              including any error codes.
+              If you encounter other issues, refer to the printer's manual for
+              further guidance.
             </p>
           </div>
         );
@@ -391,8 +280,8 @@ const PrinterSetupGuide = () => {
                 value={selectedError}
                 onChange={(e) => setSelectedError(e.target.value)}
               >
-                {errorOptions.map((option) => (
-                  <option key={option.value} value={option.value}>
+                {errorOptions.map((option, index) => (
+                  <option key={index} value={option.value}>
                     {option.label}
                   </option>
                 ))}
@@ -411,130 +300,62 @@ const PrinterSetupGuide = () => {
                 Detailed Printer Setup Process
               </h2>
               <ol className="card-text">
-                <li>
-                  <strong>Unboxing:</strong>
-                  <p>
-                    Carefully remove your printer from its packaging. Look for
-                    any tabs and tape used to secure moving parts during
-                    shipping. Remove all tape, protective films, and packing
-                    materials. For larger models, you may need to remove
-                    additional cardboard inserts.
-                  </p>
-                  <img
-                    src={img1}
-                    alt="Unboxing the printer"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Power Connection:</strong>
-                  <p>
-                    Locate the power cord that came with your printer. Connect
-                    one end to the back of the printer and the other end to a
-                    power outlet. Most printers have a clearly marked power
-                    input on the rear panel. Press the power button to turn on
-                    the printer.
-                  </p>
-                  <img
-                    src={img2}
-                    alt="Connecting power to the printer"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Install Ink Cartridges:</strong>
-                  <p>
-                    Open the ink cartridge access door, usually located on the
-                    front of the printer. Remove each cartridge from its
-                    packaging and remove the protective tape. Install each
-                    cartridge in its corresponding slot, which are typically
-                    color-coded for easy identification. Push each cartridge in
-                    until it clicks into place. Close the access door when
-                    finished.
-                  </p>
-                  <img
-                    src={img3}
-                    alt="Installing ink cartridges"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Load Paper:</strong>
-                  <p>
-                    Locate the paper tray on your printer. For most models, this
-                    is at the bottom front of the printer. Pull out the tray and
-                    adjust the paper guides to fit your paper size. Load a stack
-                    of paper with the print side down. Slide the tray back into
-                    the printer until it clicks into place.
-                  </p>
-                  <img
-                    src={img4}
-                    alt="Loading paper into the printer"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Software Installation:</strong>
-                  <p>
-                    Visit the manufacturer's support website and enter your
-                    printer model. Download the latest full feature driver for
-                    your operating system. Run the installer and follow the
-                    on-screen instructions. The installer will typically guide
-                    you through connecting your printer to your computer and
-                    network.
-                  </p>
-                  <img
-                    src={img5}
-                    alt="Installing printer software"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Network Connection:</strong>
-                  <p>
-                    For Wi-Fi: On your printer's control panel, navigate to the
-                    Network or Wireless settings. Select "Wireless Setup Wizard"
-                    and follow the prompts to connect to your Wi-Fi network. For
-                    wired connection: Connect an Ethernet cable from your router
-                    to the Ethernet port on the back of your printer.
-                  </p>
-                  <img
-                    src={img6}
-                    alt="Connecting printer to network"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Alignment:</strong>
-                  <p>
-                    Printers typically prompt you to align the print heads after
-                    initial setup. If not, you can initiate this from the
-                    printer's control panel. Go to Setup {">"} Tools {">"} Align
-                    Printer. The printer will print an alignment page and use
-                    its scanner to read the page and align itself automatically.
-                  </p>
-                  <img
-                    src={img7}
-                    alt="Aligning printer heads"
-                    className="img-fluid mb-3"
-                  />
-                </li>
-                <li>
-                  <strong>Test Print:</strong>
-                  <p>
-                    From your computer, open a document and select 'Print'.
-                    Choose your newly installed printer from the list of
-                    available printers. Click 'Print' to send a test page to
-                    your printer. Alternatively, you can print a test page
-                    directly from the printer's control panel by navigating to
-                    Reports {">"} Print Quality Report.
-                  </p>
-                  <img
-                    src={img8}
-                    alt="Printing a test page"
-                    className="img-fluid mb-3"
-                  />
-                </li>
+                {[
+                  {
+                    title: "Unboxing:",
+                    description: `Carefully remove your printer from its packaging. Look for any tabs and tape used to secure moving parts during shipping. Remove all tape, protective films, and packing materials. For larger models, you may need to remove additional cardboard inserts.`,
+                    imgSrc: img1,
+                    imgAlt: "Unboxing the printer",
+                  },
+                  {
+                    title: "Power Connection:",
+                    description: `Locate the power cord that came with your printer. Connect one end to the back of the printer and the other end to a power outlet. Most printers have a clearly marked power input on the rear panel. Press the power button to turn on the printer.`,
+                    imgSrc: img2,
+                    imgAlt: "Connecting power to the printer",
+                  },
+                  {
+                    title: "Install Ink Cartridges:",
+                    description: `Open the ink cartridge access door, usually located on the front of the printer. Remove each cartridge from its packaging and remove the protective tape. Install each cartridge in its corresponding slot, which are typically color-coded for easy identification. Push each cartridge in until it clicks into place. Close the access door when finished.`,
+                    imgSrc: img3,
+                    imgAlt: "Installing ink cartridges",
+                  },
+                  {
+                    title: "Load Paper:",
+                    description: `Locate the paper tray on your printer. For most models, this is at the bottom front of the printer. Pull out the tray and adjust the paper guides to fit your paper size. Load a stack of paper with the print side down. Slide the tray back into the printer until it clicks into place.`,
+                    imgSrc: img4,
+                    imgAlt: "Loading paper into the printer",
+                  },
+                  {
+                    title: "Software Installation:",
+                    description: `Visit the manufacturer's support website and enter your printer model. Download the latest full feature driver for your operating system. Run the installer and follow the on-screen instructions. The installer will typically guide you through connecting your printer to your computer and network.`,
+                    imgSrc: img5,
+                    imgAlt: "Installing printer software",
+                  },
+                  {
+                    title: "Network Connection:",
+                    description: `For Wi-Fi: On your printer's control panel, navigate to the Network or Wireless settings. Select "Wireless Setup Wizard" and follow the prompts to connect to your Wi-Fi network. For wired connection: Connect an Ethernet cable from your router to the Ethernet port on the back of your printer.`,
+                    imgSrc: img6,
+                    imgAlt: "Connecting printer to network",
+                  },
+                  {
+                    title: "Alignment:",
+                    description: `Printers typically prompt you to align the print heads after initial setup. If not, you can initiate this from the printer's control panel. Go to Setup > Tools > Align Printer. The printer will print an alignment page and use its scanner to read the page and align itself automatically.`,
+                    imgSrc: img7,
+                    imgAlt: "Aligning printer heads",
+                  },
+                  {
+                    title: "Test Print:",
+                    description: `From your computer, open a document and select 'Print'. Choose your newly installed printer from the list of available printers. Click 'Print' to send a test page to your printer. Alternatively, you can print a test page directly from the printer's control panel by navigating to Reports > Print Quality Report.`,
+                    imgSrc: img8,
+                    imgAlt: "Printing a test page",
+                  },
+                ].map(({ title, description, imgSrc, imgAlt }, index) => (
+                  <li key={index}>
+                    <strong>{title}</strong>
+                    <p>{description}</p>
+                    <img src={imgSrc} alt={imgAlt} className="img-fluid mb-3" />
+                  </li>
+                ))}
               </ol>
             </div>
           </div>
@@ -546,29 +367,16 @@ const PrinterSetupGuide = () => {
                 Printer Wi-Fi Connection Guide
               </h2>
               <ol className="card-text">
-                <li>
-                  On your printer's control panel, locate and tap the Wireless
-                  icon or go to Setup {">"} Network.
-                </li>
-                <li>Select "Wireless Setup Wizard" from the menu.</li>
-                <li>
-                  The printer will scan for available networks. Choose your
-                  Wi-Fi network from the list.
-                </li>
-                <li>
-                  When prompted, enter your Wi-Fi password using the printer's
-                  touch screen or keypad. Be careful to enter it correctly,
-                  including any uppercase or lowercase letters.
-                </li>
-                <li>
-                  The printer will attempt to connect to your network. This may
-                  take a few minutes.
-                </li>
-                <li>
-                  Once connected, you can print a Wireless Network Test report
-                  to verify the connection. Go to Setup {">"} Reports {">"}{" "}
-                  Network Configuration Page.
-                </li>
+                {[
+                  "On your printer's control panel, locate and tap the Wireless icon or go to Setup > Network.",
+                  "Select 'Wireless Setup Wizard' from the menu.",
+                  "The printer will scan for available networks. Choose your Wi-Fi network from the list.",
+                  "When prompted, enter your Wi-Fi password using the printer's touch screen or keypad. Be careful to enter it correctly, including any uppercase or lowercase letters.",
+                  "The printer will attempt to connect to your network. This may take a few minutes.",
+                  "Once connected, you can print a Wireless Network Test report to verify the connection. Go to Setup > Reports > Network Configuration Page.",
+                ].map((step, index) => (
+                  <li key={index}>{step}</li>
+                ))}
               </ol>
               <img
                 src={img9}
@@ -591,27 +399,18 @@ const PrinterSetupGuide = () => {
                 />
                 Connecting Printer to Devices
               </h2>
+
               <h3 className="h5">Laptop Connection:</h3>
               <ol className="card-text">
-                <li>
-                  Ensure your laptop and printer are on the same Wi-Fi network.
-                </li>
-                <li>
-                  Visit the manufacturer's support website and download the full
-                  feature driver for your specific printer model.
-                </li>
-                <li>
-                  Run the installer and follow the prompts. It will guide you
-                  through adding your printer.
-                </li>
-                <li>
-                  When prompted, select your printer from the list of discovered
-                  devices.
-                </li>
-                <li>
-                  Complete the setup and print a test page to confirm the
-                  connection.
-                </li>
+                {[
+                  "Ensure your laptop and printer are on the same Wi-Fi network.",
+                  "Visit the manufacturer's support website and download the full feature driver for your specific printer model.",
+                  "Run the installer and follow the prompts. It will guide you through adding your printer.",
+                  "When prompted, select your printer from the list of discovered devices.",
+                  "Complete the setup and print a test page to confirm the connection.",
+                ].map((step, index) => (
+                  <li key={index}>{step}</li>
+                ))}
               </ol>
               <img
                 src={img10}
@@ -621,23 +420,15 @@ const PrinterSetupGuide = () => {
 
               <h3 className="h5">Smartphone Connection:</h3>
               <ol className="card-text">
-                <li>
-                  Download the printer's official app from your device's app
-                  store.
-                </li>
-                <li>Open the app and tap the plus sign to add a printer.</li>
-                <li>
-                  The app will search for available printers on your network.
-                  Select your printer when it appears.
-                </li>
-                <li>
-                  If prompted, enter any required PIN displayed on the printer's
-                  control panel.
-                </li>
-                <li>
-                  Once connected, try printing a photo or document from your
-                  phone to test the connection.
-                </li>
+                {[
+                  "Download the printer's official app from your device's app store.",
+                  "Open the app and tap the plus sign to add a printer.",
+                  "The app will search for available printers on your network. Select your printer when it appears.",
+                  "If prompted, enter any required PIN displayed on the printer's control panel.",
+                  "Once connected, try printing a photo or document from your phone to test the connection.",
+                ].map((step, index) => (
+                  <li key={index}>{step}</li>
+                ))}
               </ol>
               <img
                 src={img11}
@@ -654,29 +445,15 @@ const PrinterSetupGuide = () => {
                 Ink Management Tips
               </h2>
               <ul className="card-text">
-                <li>
-                  Always use ink cartridges designed for your printer model to
-                  ensure the best print quality and reliability.
-                </li>
-                <li>
-                  Store spare ink cartridges in their original sealed packages
-                  in a cool, dry place. Avoid direct sunlight and extreme
-                  temperatures.
-                </li>
-                <li>
-                  When installing a new cartridge, gently shake it horizontally
-                  for about 10 seconds to ensure even ink distribution.
-                </li>
-                <li>
-                  If you don't print often, run a cleaning cycle every few
-                  weeks. This can usually be done through the printer's
-                  maintenance menu.
-                </li>
-                <li>
-                  For everyday documents, use the draft or economy mode in your
-                  print settings to conserve ink. Reserve high-quality settings
-                  for important documents or photos.
-                </li>
+                {[
+                  "Always use ink cartridges designed for your printer model to ensure the best print quality and reliability.",
+                  "Store spare ink cartridges in their original sealed packages in a cool, dry place. Avoid direct sunlight and extreme temperatures.",
+                  "When installing a new cartridge, gently shake it horizontally for about 10 seconds to ensure even ink distribution.",
+                  "If you don't print often, run a cleaning cycle every few weeks. This can usually be done through the printer's maintenance menu.",
+                  "For everyday documents, use the draft or economy mode in your print settings to conserve ink. Reserve high-quality settings for important documents or photos.",
+                ].map((tip, index) => (
+                  <li key={index}>{tip}</li>
+                ))}
               </ul>
               <img
                 src={img12}
@@ -696,28 +473,15 @@ const PrinterSetupGuide = () => {
                 Optimizing Print Quality
               </h2>
               <ol className="card-text">
-                <li>
-                  In your print dialog, always select the correct paper type
-                  that matches what you've loaded in the printer. This ensures
-                  the right amount of ink is used.
-                </li>
-                <li>
-                  Regularly align your print heads. This can usually be done
-                  through the printer's maintenance menu.
-                </li>
-                <li>
-                  If you notice streaking or missing colors, clean the print
-                  heads using the printer's built-in cleaning function.
-                </li>
-                <li>
-                  For photos or important documents, use high-quality photo
-                  paper or premium presentation paper for best results.
-                </li>
-                <li>
-                  Adjust color settings in your printer properties for specific
-                  needs. Many printers offer preset options for different types
-                  of documents.
-                </li>
+                {[
+                  "In your print dialog, always select the correct paper type that matches what you've loaded in the printer. This ensures the right amount of ink is used.",
+                  "Regularly align your print heads. This can usually be done through the printer's maintenance menu.",
+                  "If you notice streaking or missing colors, clean the print heads using the printer's built-in cleaning function.",
+                  "For photos or important documents, use high-quality photo paper or premium presentation paper for best results.",
+                  "Adjust color settings in your printer properties for specific needs. Many printers offer preset options for different types of documents.",
+                ].map((step, index) => (
+                  <li key={index}>{step}</li>
+                ))}
               </ol>
               <img
                 src={img13}
@@ -731,14 +495,13 @@ const PrinterSetupGuide = () => {
             <h4 className="alert-heading">Disclaimer</h4>
             <p className="mb-0">
               This guide is intended for informational purposes only and does
-              not constitute official support. I am an individual seller and am
-              not affiliated with any printer manufacturers. For official
-              technical assistance, please refer to the support resources
-              provided by your printer manufacturer. I make no guarantees
-              regarding the accuracy of the information provided and assume no
-              liability for any damages arising from its use. Please retain your
-              proof of purchase for any applicable warranty claims with the
-              manufacturer.
+              not constitute formal support. I am an independent seller and am
+              not affiliated with any printer manufacturers. For assistance with
+              your printer, please refer to the support resources provided by
+              your printer manufacturer. I make no guarantees regarding the
+              accuracy of the information presented and assume no liability for
+              any damages arising from its use. Please retain your proof of
+              purchase for any applicable warranty claims with the manufacturer.
             </p>
           </div>
         </div>

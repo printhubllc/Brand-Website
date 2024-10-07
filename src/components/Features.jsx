@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShippingFast, faMoneyBillWave, faCreditCard, faHeadset } from '@fortawesome/free-solid-svg-icons';
+import { faShippingFast, faExchangeAlt, faCreditCard, faHeadset } from '@fortawesome/free-solid-svg-icons';
 
 const Features = () => {
   const features = [
-    { icon: faShippingFast, title: 'Free Shipping', description: 'Free Shipping On All Order' },
-    { icon: faMoneyBillWave, title: 'Money Guarantee', description: '15 Day Money Back' },
-    { icon: faCreditCard, title: 'Secure Payment', description: 'All Cards Accepted' },
-    { icon: faHeadset, title: 'Online Support 24/7', description: 'Technical Support 24/7' },
+    { icon: faShippingFast, title: 'Complimentary Delivery', description: 'Get Complimentary Delivery on All Orders' },
+    { icon: faExchangeAlt, title: 'Hassle-Free Returns', description: '15-Day Hassle-Free Returns Policy' },
+    { icon: faCreditCard, title: 'Secure Payments', description: 'All Major Credit Cards Accepted' },
+    { icon: faHeadset, title: 'Customer Support 24/7', description: 'Friendly Customer Service Available 24/7' },
   ];
 
   const featureStyle = {

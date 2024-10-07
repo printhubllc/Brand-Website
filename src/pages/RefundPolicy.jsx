@@ -15,7 +15,7 @@ const RefundPolicy = () => {
           <p>
             <strong>Important Note:</strong>
             <br />
-            Activto Printer is an independent printer seller. We also provide general troubleshooting tips as a complementary service. We are not affiliated with any major printer brands. For complex issues, please visit the official support website of your printer manufacturer.
+            Activto Printer is an independent printer seller. We also provide general troubleshooting tips as a complementary service. Please note that we are not affiliated with any major printer brands. For complex issues, we recommend visiting the official support website of your printer manufacturer.
           </p>
         </section>
 
@@ -45,7 +45,7 @@ const RefundPolicy = () => {
           <p>
             <strong>Items Not Eligible for Refunds:</strong>
             <br />
-            Please note the following items cannot be returned or refunded:
+            The following items cannot be returned or refunded:
           </p>
           <ul>
             <li>Customized Products</li>
@@ -58,7 +58,7 @@ const RefundPolicy = () => {
           <p>
             <strong>Steps to Request a Refund:</strong>
             <br />
-            To process a return, follow these instructions:
+            To process a return, please follow these instructions:
           </p>
           <ol>
             <li>
@@ -105,10 +105,10 @@ const RefundPolicy = () => {
           <p>
             <strong>Defective or Incorrect Items:</strong>
             <br />
-            If you receive a defective or incorrect item, contact us immediately
+            If you receive a defective or incorrect item, please contact us immediately
             at{" "}
-            <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>
-            . We will arrange for a replacement or issue a refund at no extra
+            <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>.
+            We will arrange for a replacement or issue a refund at no extra
             charge.
           </p>
         </section>
@@ -117,7 +117,7 @@ const RefundPolicy = () => {
           <p>
             <strong>Troubleshooting Support:</strong>
             <br />
-            As part of our service, we offer general troubleshooting tips for printers. However, this support is provided as-is and does not affect our refund policy for purchased products.
+            As part of our service, we offer general troubleshooting tips for printers. Please note that this support is provided as-is and does not affect our refund policy for purchased products.
           </p>
         </section>
 
@@ -129,12 +129,6 @@ const RefundPolicy = () => {
           </p>
           <address>
             <strong>Activto Printer</strong>
-            {/* <br />
-            5678 Innovation Lane, Suite 300
-            <br />
-            San Jose, CA 95134
-            <br />
-            United States */}
             <br />
             Email:{" "}
             <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>
@@ -145,7 +139,7 @@ const RefundPolicy = () => {
           <p>
             <strong>Policy Updates:</strong>
             <br />
-            We may update this refund policy from time to time. Changes will be
+            We may update this refund policy periodically. Changes will be
             posted on our website and will be effective for all purchases made
             after the update date.
           </p>

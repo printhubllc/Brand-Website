@@ -10,25 +10,10 @@ const ContactUs = () => {
           Get in Touch with Activto Printer
         </h2>
         <p className="text-sm text-gray-700">
-          We are an independent printer seller, offering a wide range of printers
-          from various brands. As an independent seller, we are not 
-          affiliated with or an authorized partner of any specific brand. We take 
-          pride in providing reliable products and services through our offline markets 
-          and online presence, along with offering general troubleshooting tips.
+          We are an independent printer seller, offering a wide selection of printers from various brands. As an independent seller, we are not affiliated with or an authorized partner of any specific brand. We take pride in providing reliable products and services through our offline markets and online presence, along with general troubleshooting tips.
         </p>
 
         <section style={{ marginTop: "20px" }}>
-          {/* <h3 className="text-lg font-medium">Our Location</h3> */}
-          <p className="text-sm text-gray-600">
-            {/* <strong>Address:</strong>
-            <br />
-            5678 Innovation Lane, Suite 300
-            <br />
-            San Jose, CA 95134
-            <br />
-            United States
-            <br /> */}
-          </p>
           <p className="text-sm text-gray-600">
             <strong>Email:</strong>{" "}
             <a
@@ -58,31 +43,23 @@ const ContactUs = () => {
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h3 className="text-lg font-medium">Independent Printer Sales and Support</h3>
+          <h3 className="text-lg font-medium">Independent Sales and Support</h3>
           <p className="text-sm text-gray-600">
-            As an independent seller, we offer a variety of printers and provide general guidance 
-            to help you with your printer selection and basic troubleshooting. For complex issues 
-            or brand-specific problems, we recommend contacting the official support channels of 
-            your printer's manufacturer.
+            As an independent seller, we offer a variety of printers and provide general guidance to help you with your printer selection and basic troubleshooting. For more complex issues or brand-specific questions, we recommend reaching out to the support resources of your printer's manufacturer.
           </p>
         </section>
 
         <section style={{ marginTop: "20px" }}>
-          <h3 className="text-lg font-medium">
-            Sales and Business Opportunities
-          </h3>
+          <h3 className="text-lg font-medium">Sales and Business Opportunities</h3>
           <p className="text-sm text-gray-600">
-            Interested in bulk purchases or specific product inquiries? 
-            Our team is ready to assist you with personalized solutions for 
-            your printer needs.
+            Interested in bulk purchases or specific product inquiries? Our team is here to assist you with personalized solutions for your printing needs.
           </p>
         </section>
 
         <section style={{ marginTop: "20px" }}>
           <h3 className="text-lg font-medium">Share Your Thoughts</h3>
           <p className="text-sm text-gray-600">
-            Your feedback is valuable to us! Let us know how we can improve 
-            our services or provide better products to meet your needs.
+            Your feedback is valuable! Let us know how we can improve our services or offer better products to meet your needs.
           </p>
         </section>
 
@@ -126,8 +103,7 @@ const ContactUs = () => {
         </section>
 
         <p className="text-sm text-gray-700" style={{ marginTop: "20px" }}>
-          We appreciate your interest in Activto Printer and look forward to assisting you 
-          with our independent expertise in printer sales and basic troubleshooting tips!
+          Thank you for your interest in Activto Printer! We look forward to assisting you with our independent expertise in printer sales and troubleshooting tips.
         </p>
       </div>
       <Footer />

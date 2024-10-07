@@ -11,7 +11,7 @@ const Disclaimer = () => {
           <Col>
             <h1 className="display-4 mb-4 text-center">Website Disclaimer</h1>
             <p className="lead text-center">
-              Activto Printer is an independent printer seller. We also provide general troubleshooting tips as a complementary service. We are not affiliated with any major printer brands. The information provided on this website ("the Site") is intended for general informational purposes only. By accessing and using the Site, you agree to the following terms:
+              Activto Printer operates as an independent seller of printers. We also provide general troubleshooting tips as a complementary service. We are not affiliated with any major printer brands. The information provided on this website ("the Site") is intended for general informational purposes only. By accessing and using the Site, you agree to the following terms:
             </p>
           </Col>
         </Row>
@@ -21,7 +21,7 @@ const Disclaimer = () => {
               <h5>No Warranty</h5>
               <h5>1.1. Information Accuracy:</h5>
               <p>
-                The content on the Site, including printer information and general troubleshooting tips, is presented "as is" and "as available." While we make efforts to ensure accuracy, no guarantees are made regarding the completeness, reliability, or timeliness of the content provided.
+                The content on the Site, including printer information and troubleshooting tips, is presented "as is" and "as available." While we strive to ensure accuracy, we do not guarantee the completeness, reliability, or timeliness of the content provided.
               </p>
               <h5>1.2. Availability:</h5>
               <p>
@@ -63,14 +63,14 @@ const Disclaimer = () => {
             <section className="mb-4">
               <h5>No Professional Advice</h5>
               <p>
-                The content provided on the Site, including troubleshooting tips, is not intended to constitute professional advice. For complex issues, please visit the official support website of your printer manufacturer or seek the assistance of a qualified professional.
+                The content provided on the Site, including troubleshooting tips, is not intended to constitute professional advice. For complex issues, please visit the official support website of your printer manufacturer or seek assistance from a qualified professional.
               </p>
             </section>
 
             <section className="mb-4">
               <h5>Governing Law</h5>
               <p>
-                This Disclaimer is governed by the laws of the relevant jurisdiction, and any disputes arising in connection with this Disclaimer or the use of the Site will be subject to the courts of that jurisdiction.
+                This Disclaimer is governed by the laws of the relevant jurisdiction. Any disputes arising in connection with this Disclaimer or the use of the Site will be subject to the courts of that jurisdiction.
               </p>
             </section>
 
@@ -81,12 +81,6 @@ const Disclaimer = () => {
               </p>
               <address>
                 <strong>Activto Printer</strong>
-                {/* <br />
-                5678 Innovation Lane, Suite 300
-                <br />
-                San Jose, CA 95134
-                <br />
-                United States */}
                 <br />
                 Email:{" "}
                 <a href="mailto:info@activtoprinter.com">

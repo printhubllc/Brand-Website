@@ -21,10 +21,7 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               Important Note:{" "}
             </span>
-            Activto Printer is an independent printer seller. We also provide
-            general troubleshooting tips as a complementary service. We are not
-            affiliated with any major printer brands. For complex issues, please
-            visit the official support website of your printer manufacturer.
+            Activto Printer operates as an independent seller of printers. We also provide general troubleshooting tips as a complementary service. We are not associated with any major printer brands. For complex issues, please consult the support resources of your printer manufacturer.
           </p>
         </section>
 
@@ -33,10 +30,7 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               1. What Are Cookies?{" "}
             </span>
-            Cookies are small text files placed on your device (computer,
-            smartphone, tablet) by websites you visit. They are used to enhance
-            website functionality and provide analytical insights. Cookies can
-            be categorized based on their function and duration.
+            Cookies are small text files placed on your device (computer, smartphone, tablet) by websites you visit. They enhance website functionality and provide analytical insights. Cookies can be categorized based on their function and duration.
           </p>
         </section>
 
@@ -51,25 +45,21 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               2.1. Essential Cookies:{" "}
             </span>
-            These cookies are necessary for the basic functionality of our site.
-            They enable essential features such as secure login and website
-            navigation.
+            These cookies are necessary for the basic functionality of our site. They enable essential features such as secure login and website navigation.
           </p>
 
           <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
             <span className="font-bold" style={{ fontWeight: 700 }}>
               2.2. Performance Cookies:{" "}
             </span>
-            Performance cookies collect data on how users interact with the site
-            to improve its performance and user experience.
+            Performance cookies collect data on how users interact with the site to improve its performance and user experience.
           </p>
 
           <p className="text-base text-gray-700" style={{ lineHeight: "1.8" }}>
             <span className="font-bold" style={{ fontWeight: 700 }}>
               2.3. Functional Cookies:{" "}
             </span>
-            These cookies allow the site to remember your preferences, such as
-            language settings and display options.
+            These cookies allow the site to remember your preferences, such as language settings and display options.
           </p>
         </section>
 
@@ -78,10 +68,7 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               3. How We Use Cookies:{" "}
             </span>
-            As an independent printer seller, we use cookies to enhance user
-            experience and to improve the usability of our site. Cookies are used
-            for website navigation, performance analytics, and to help us deliver
-            better product information and support.
+            As an independent seller, we use cookies to enhance user experience and improve the usability of our site. Cookies assist with website navigation, performance analytics, and delivering better product information and support.
           </p>
         </section>
 
@@ -90,10 +77,7 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               4. Third-Party Cookies:{" "}
             </span>
-            We do not use third-party cookies for advertising or affiliate
-            marketing. However, we may use cookies from third-party services to
-            monitor website performance and analyze user interaction to improve
-            our product offerings and content.
+            We do not utilize third-party cookies for advertising or affiliate marketing. However, we may use cookies from third-party services to monitor website performance and analyze user interactions to enhance our product offerings and content.
           </p>
         </section>
 
@@ -102,9 +86,7 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               5. Managing Cookies:{" "}
             </span>
-            You can manage and control cookies through your browser settings.
-            Most browsers allow you to block or delete cookies. Please note that
-            blocking cookies may limit some features of our site.
+            You can manage and control cookies through your browser settings. Most browsers allow you to block or delete cookies. Please note that blocking cookies may limit some features of our site.
           </p>
         </section>
 
@@ -113,9 +95,7 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               6. Changes to This Policy:{" "}
             </span>
-            We may update this Cookies Policy to reflect changes in our services
-            or legal requirements. We encourage you to review this policy
-            regularly.
+            We may update this Cookies Policy to reflect changes in our services or legal requirements. We encourage you to review this policy regularly.
           </p>
         </section>
 
@@ -124,18 +104,10 @@ const CookiesPolicy = () => {
             <span className="font-bold" style={{ fontWeight: 700 }}>
               7. Contact Us:{" "}
             </span>
-            If you have any questions regarding our use of cookies, this policy,
-            or our independent printer sales and services, please contact us:
+            If you have any questions regarding our use of cookies, this policy, or our services, please reach out to us:
           </p>
           <address className="mt-4 text-base text-gray-700">
             <strong>Activto Printer</strong>
-            {/* <br />
-            5678 Innovation Lane, Suite 300
-            <br />
-            San Jose, CA 95134
-            <br />
-            United States
-            <br /> */}
             Email:{" "}
             <a
               href="mailto:info@activtoprinter.com"
