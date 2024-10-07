@@ -70,12 +70,6 @@ const AboutUs = () => {
         <address style={{ marginTop: "20px", fontStyle: "normal" }}>
           Activto Printer
           <br />
-          5678 Innovation Lane, Suite 300
-          <br />
-          San Jose, CA 95134
-          <br />
-          United States
-          <br />
           Email: <a href="mailto:info@activtoprinter.com">info@activtoprinter.com</a>
         </address>
 

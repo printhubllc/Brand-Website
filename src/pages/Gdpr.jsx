@@ -66,12 +66,12 @@ const GDPRCompliance = () => {
           </p>
           <address className="mt-4 text-sm text-gray-700">
             <strong>Activto Printer</strong>
-            <br />
+            {/* <br />
             5678 Innovation Lane, Suite 300
             <br />
             San Jose, CA 95134
             <br />
-            United States
+            United States */}
             <br />
             Email:{" "}
             <a
