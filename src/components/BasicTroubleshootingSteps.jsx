@@ -494,14 +494,13 @@ const PrinterSetupGuide = () => {
           <div className="alert alert-warning" role="alert">
             <h4 className="alert-heading">Disclaimer</h4>
             <p className="mb-0">
-              This guide is intended for informational purposes only and does
-              not constitute formal support. I am an independent seller and am
-              not affiliated with any printer manufacturers. For assistance with
-              your printer, please refer to the support resources provided by
-              your printer manufacturer. I make no guarantees regarding the
-              accuracy of the information presented and assume no liability for
-              any damages arising from its use. Please retain your proof of
-              purchase for any applicable warranty claims with the manufacturer.
+              Activto Printer is an independent seller and is not associated
+              with any printer brands or manufacturers. All brand names and
+              trademarks are the property of their respective owners. The
+              information provided here is intended to assist customers with
+              common printer issues and is not a substitute for professional
+              manufacturer support. For assistance with specific printer models,
+              please refer to the manufacturer's official support channels.
             </p>
           </div>
         </div>
