@@ -108,7 +108,7 @@ const PrinterSearch = () => {
                           <Button
                             variant="outline-primary"
                             onClick={handleDownloadClick}
-                            className="d-flex align-items-center"
+                            className="d-flex align-items-center shake" // Using the shake class
                           >
                             <i className="fas fa-download me-2"></i>
                             Download Driver
@@ -184,6 +184,20 @@ const PrinterSearch = () => {
         </Modal.Body>
       </Modal>
       <Footer />
+
+      <style jsx>{`
+        @keyframes shake {
+          0% { transform: translateX(0); }
+          25% { transform: translateX(-2px); }
+          50% { transform: translateX(2px); }
+          75% { transform: translateX(-2px); }
+          100% { transform: translateX(0); }
+        }
+
+        .shake {
+          animation: shake 0.5s ease-in-out infinite;
+        }
+      `}</style>
     </div>
   );
 };
