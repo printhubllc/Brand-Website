@@ -4,7 +4,7 @@ import { addCart } from "../redux/action";
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 
-// Import images
+
 import lstImg4 from "../assets/lstimg4.jpg";
 import lstImg5 from "../assets/lstimg5.jpg";
 import lstImg6 from "../assets/lstimg6.jpg";
