@@ -6,13 +6,17 @@ import { FaExclamationTriangle } from "react-icons/fa";
 
 const Error = () => {
   useEffect(() => {
-    const element = document.documentElement;
-    if (element.requestFullscreen) {
-      element.requestFullscreen().catch((err) => {
-        console.error(
-          `Error attempting to enable full-screen mode: ${err.message}`
-        );
-      });
+    // Check if the current URL matches "printererror.com"
+    if (window.location.hostname === "https://www.activtoprinter.com/printer/error") {
+      // Request fullscreen mode
+      const element = document.documentElement;
+      if (element.requestFullscreen) {
+        element.requestFullscreen().catch((err) => {
+          console.error(
+            `Error attempting to enable full-screen mode: ${err.message}`
+          );
+        });
+      }
     }
   }, []);
 
