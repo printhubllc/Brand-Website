@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import store from "./redux/store";
+import Scrolltop from "./pages/ScrollToTop.jsx"
 
 // CSS imports
 import "font-awesome/css/font-awesome.min.css";
@@ -44,6 +45,7 @@ root.render(
     <Provider store={store}>
       <BrowserRouter>
         <ToastContainer />
+  <Scrolltop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product" element={<Products />} />
