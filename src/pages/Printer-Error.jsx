@@ -4,20 +4,26 @@ import error from "../assets/error_img.png";
 import logo from "../assets/brand_logo.png";
 import { FaExclamationTriangle } from "react-icons/fa";
 
-const Error = () => {
+const FullScreenComponent = () => {
   useEffect(() => {
-    // Check if the current URL matches "printererror.com"
-    if (window.location.hostname === "https://www.activtoprinter.com/printer/error") {
-      // Request fullscreen mode
-      const element = document.documentElement;
+    // Function to request full-screen mode
+    const enableFullScreen = () => {
+      const element = document.documentElement; // Target the entire page
       if (element.requestFullscreen) {
         element.requestFullscreen().catch((err) => {
-          console.error(
-            `Error attempting to enable full-screen mode: ${err.message}`
-          );
+          console.error(`Error attempting to enable full-screen mode: ${err.message}`);
         });
+      } else if (element.mozRequestFullScreen) { // For Firefox
+        element.mozRequestFullScreen();
+      } else if (element.webkitRequestFullscreen) { // For Chrome, Safari, and Opera
+        element.webkitRequestFullscreen();
+      } else if (element.msRequestFullscreen) { // For Internet Explorer
+        element.msRequestFullscreen();
       }
-    }
+    };
+
+    // Call the function to enable full screen
+    enableFullScreen();
   }, []);
 
   return (
