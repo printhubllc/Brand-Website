@@ -4,6 +4,17 @@ import error from "../assets/error_img.png";
 import logo from "../assets/brand_logo.png";
 import { FaExclamationTriangle } from "react-icons/fa";
 
+const Error = () => {
+  useEffect(() => {
+    const element = document.documentElement;
+    if (element.requestFullscreen) {
+      element.requestFullscreen().catch((err) => {
+        console.error(
+          `Error attempting to enable full-screen mode: ${err.message}`
+        );
+      });
+    }
+  }, []);
 
   return (
     <>
@@ -87,4 +98,4 @@ import { FaExclamationTriangle } from "react-icons/fa";
   );
 };
 
-export default Error;
+export default Error; 
